@@ -1,7 +1,15 @@
+import { Route, Routes } from "react-router-dom";
+
+// views
+import HomeView from "./views/Home";
+
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Lets Build Something Awesome!
-    </h1>
+    <>
+      <Routes>
+        <Route path="/" element={<HomeView />} />
+        <Route path="/menu" element={<p>Menu</p>} />
+      </Routes>
+    </>
   );
 }
