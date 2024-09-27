@@ -2,12 +2,12 @@
   {
     "name": "Burger",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem cumque, error ipsum sed id delectus?",
-    "image": "/menu/burger.jpg"
+    "image": "https://png.pngtree.com/png-clipart/20231017/original/pngtree-burger-food-png-free-download-png-image_13329458.png"
   },
   {
     "name": "Pizza",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem cumque, error ipsum sed id delectus?",
-    "image": "/menu/pizza.jpg"
+    "image": "https://e7.pngegg.com/pngimages/385/821/png-clipart-pizza-pizza.png"
   },
   {
     "name": "Hotdog",

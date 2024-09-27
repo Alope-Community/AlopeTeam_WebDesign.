@@ -13,4 +13,10 @@ type CardLocationProps = {
   price: number;
 };
 
-export type { ButtonProps, TextProps, CardLocationProps };
+type CardMenuProps = {
+  name: string;
+  description: string;
+  image: string;
+}
+
+export type { ButtonProps, TextProps, CardLocationProps, CardMenuProps };
