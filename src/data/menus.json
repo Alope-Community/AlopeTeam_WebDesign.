@@ -12,16 +12,16 @@
   {
     "name": "Hotdog",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem cumque, error ipsum sed id delectus?",
-    "image": "/menu/hotdog.jpg"
+    "image": "https://png.pngtree.com/png-clipart/20221001/ourmid/pngtree-fast-food-big-ham-burger-png-image_6244235.png"
   },
   {
     "name": "BBQ",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem cumque, error ipsum sed id delectus?",
-    "image": "/menu/bbq.jpg"
+    "image": "https://png.pngtree.com/png-clipart/20231017/original/pngtree-burger-food-png-free-download-png-image_13329458.png"
   },
   {
     "name": "Beef",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem cumque, error ipsum sed id delectus?",
-    "image": "/menu/beef.jpg"
+    "image": "https://png.pngtree.com/png-clipart/20221001/ourmid/pngtree-fast-food-big-ham-burger-png-image_6244235.png"
   }
 ]

@@ -5,7 +5,7 @@ import { Title } from "../../../components/text";
 export default function HomeFavoriteSection() {
   return (
     <section className="py-8 bg-gray-100">
-      <div className="text-center uppercase mb-6 relative">
+      <div className="text-center uppercase mb-12 md:mb-20 relative">
         <Title text={"Favorite Menu"} />
       </div>
       <div className="flex flex-wrap justify-center gap-10">
