@@ -1,0 +1,17 @@
+[
+  {
+    "name": "crispy",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem cumque, error ipsum sed id delectus?",
+    "image": "7.svg"
+  },
+  {
+    "name": "grilled",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem cumque, error ipsum sed id delectus?",
+    "image": "7.svg"
+  },
+  {
+    "name": "soup",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem cumque, error ipsum sed id delectus?",
+    "image": "7.svg"
+  }
+]
