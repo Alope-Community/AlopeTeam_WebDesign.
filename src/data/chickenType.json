@@ -1,0 +1,17 @@
+[
+  {
+    "name": "crispy",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem cumque, error ipsum sed id delectus?",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLTmN2wg6jKOG7fTsX-B8SDsdYWh-O4E1pkQ&s"
+  },
+  {
+    "name": "grilled",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem cumque, error ipsum sed id delectus?",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_wJjQmEHjog88sYp0dJroj8hq1oyWMgm1jw&s"
+  },
+  {
+    "name": "soup",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem cumque, error ipsum sed id delectus?",
+    "image": "https://png.pngtree.com/png-vector/20210924/ourlarge/pngtree-a-bowl-of-chicken-soup-png-image_3946229.jpg"
+  }
+]
