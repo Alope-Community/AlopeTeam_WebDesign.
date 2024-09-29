@@ -1,27 +1,17 @@
 [
   {
-    "name": "Burger",
+    "name": "Paket Ayam + Nasi",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem cumque, error ipsum sed id delectus?",
-    "image": "https://png.pngtree.com/png-clipart/20231017/original/pngtree-burger-food-png-free-download-png-image_13329458.png"
+    "image": "7.svg"
   },
   {
-    "name": "Pizza",
+    "name": "Ayam Crispy",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem cumque, error ipsum sed id delectus?",
-    "image": "https://e7.pngegg.com/pngimages/385/821/png-clipart-pizza-pizza.png"
+    "image": "6.svg"
   },
   {
-    "name": "Hotdog",
+    "name": "Ayam Katsu",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem cumque, error ipsum sed id delectus?",
-    "image": "https://png.pngtree.com/png-clipart/20221001/ourmid/pngtree-fast-food-big-ham-burger-png-image_6244235.png"
-  },
-  {
-    "name": "BBQ",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem cumque, error ipsum sed id delectus?",
-    "image": "https://png.pngtree.com/png-clipart/20231017/original/pngtree-burger-food-png-free-download-png-image_13329458.png"
-  },
-  {
-    "name": "Beef",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem cumque, error ipsum sed id delectus?",
-    "image": "https://png.pngtree.com/png-clipart/20221001/ourmid/pngtree-fast-food-big-ham-burger-png-image_6244235.png"
+    "image": "11.svg"
   }
 ]

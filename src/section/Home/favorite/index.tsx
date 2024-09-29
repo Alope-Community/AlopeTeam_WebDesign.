@@ -1,12 +1,14 @@
 import menus from "../../../data/menus.json";
+import { Subtitle, Title } from "../../../components/text";
 import CardFavorite from "./card";
-import { Title } from "../../../components/text";
+import Button from "../../../components/button";
 
 export default function HomeFavoriteSection() {
   return (
-    <section className="py-8 bg-gray-100">
-      <div className="text-center uppercase mb-12 md:mb-20 relative">
-        <Title text={"Favorite Menu"} />
+    <section className="py-8">
+      <div className="text-center uppercase mb-12 md:mb-28 relative">
+        <Subtitle text={"Menu Favorit"} />
+        <Title text={"Menu dengan Ragam Bumbu Khas"} />
       </div>
       <div className="flex flex-wrap justify-center gap-10">
         {menus.map((menu, index) => (
@@ -19,9 +21,7 @@ export default function HomeFavoriteSection() {
         ))}
       </div>
       <div className="text-center mt-8">
-        <button className="bg-orange-500 text-white py-2 px-4 rounded-lg hover:bg-orange-600">
-          View Full Menu
-        </button>
+        <Button text="View Full Menu" to="/" />
       </div>
     </section>
   );

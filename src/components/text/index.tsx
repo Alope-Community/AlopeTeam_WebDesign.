@@ -5,7 +5,7 @@ function Title({ text }: TextProps) {
 }
 
 function Subtitle({ text }: TextProps) {
-  return <p className="font-medium text-red-500 uppercase">{text}</p>;
+  return <p className="font-medium text-primary uppercase">{text}</p>;
 }
 
 export { Title, Subtitle };
