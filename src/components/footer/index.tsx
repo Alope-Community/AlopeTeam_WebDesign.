@@ -1,4 +1,3 @@
-import React from "react";
 import { Title } from "../text";
 import ListContact from "./list";
 
@@ -18,13 +17,11 @@ export default function HomeFooterSection() {
 
           <p className="text-gray-200 mt-5">
             <span className="text-primary font-medium">Working Hour</span>:
-            3424356 67r
+            08:00 AM - 17:00 PM
           </p>
         </div>
-        <div className="text-gray-200">
-          <h4 className="text-primary font-semibold text-xl pb-4">
-            Contact us
-          </h4>
+        <div className="text-gray-100">
+          <h4 className="font-semibold text-xl mb-4">Contact us</h4>
           {contact.map((contact, index) => (
             <ListContact
               key={index}
@@ -34,56 +31,106 @@ export default function HomeFooterSection() {
           ))}
         </div>
         <div className="col-span-2">
-          <h4 className="text-primary font-semibold text-xl pb-4">Galery</h4>
+          <p className="font-semibold text-xl pb-4 text-gray-100">
+            Follow us on Instagram
+          </p>
           <div className="grid grid-cols-3 gap-3">
-            <div className="h-28 group relative after:content-[''] after:absolute after:inset-0 after:bg-black/25 after:z-50 after:scale-0 hover:after:scale-100 after:transition-all after:duration-500 after:ease-in-out rounded overflow-hidden">
-              <span className="group-hover:block hidden text-primary absolute top-1/2 left-1/2 whitespace-nowrap -translate-x-1/2 -translate-y-1/2">
-                See on IG
-              </span>
+            <div className="relative rounded-md cursor-pointer overflow-hidden group after:content-[''] hover:after:bg-black/20 after:absolute after:inset-0 h-[100px]">
+              <div className="absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-xs z-10">
+                <span className="text-center inline-block">
+                  <img
+                    src="/logo/instagram.svg"
+                    alt="logo instaram from pngwing"
+                    className="mx-auto w-[40px] object-cover"
+                    width={40}
+                    height={40}
+                  />
+                  <p className="-mt-1">See on Instagram</p>
+                </span>
+              </div>
+              {/* https://unsplash.com/photos/selective-focus-photography-of-hamburger-with-sliced-tomatoes-and-vegetables-_TLKIVSW6Do */}
               <img
-                src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/Jakarta_Indonesia_National-Monument-02.jpg/1200px-Jakarta_Indonesia_National-Monument-02.jpg"
-                alt=""
-                className="h-full w-full object-cover"
+                src="https://images.unsplash.com/photo-1549759594-0d842f402b4d?q=80&w=1898&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="burger from unsplash"
+                className="w-full h-full object-cover"
               />
             </div>
-            <div className="h-28 group relative after:content-[''] after:absolute after:inset-0 after:bg-black/25 after:z-50 after:scale-0 hover:after:scale-100 after:transition-all after:duration-500 after:ease-in-out rounded overflow-hidden">
-              <span className="group-hover:block hidden text-primary absolute top-1/2 left-1/2 whitespace-nowrap -translate-x-1/2 -translate-y-1/2">
-                See on IG
-              </span>
+            <div className="relative rounded-md cursor-pointer overflow-hidden group after:content-[''] hover:after:bg-black/20 after:absolute after:inset-0 h-[100px]">
+              <div className="absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-xs z-10">
+                <span className="text-center inline-block">
+                  <img
+                    src="/logo/instagram.svg"
+                    alt="logo instaram from pngwing"
+                    className="mx-auto w-[40px] h-full object-cover"
+                  />
+                  <p className="-mt-1">See on Instagram</p>
+                </span>
+              </div>
+              {/* https://unsplash.com/photos/pizza-on-chopping-board-MqT0asuoIcU */}
               <img
-                src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/Jakarta_Indonesia_National-Monument-02.jpg/1200px-Jakarta_Indonesia_National-Monument-02.jpg"
-                alt=""
-                className="h-full w-full object-cover"
+                src="https://images.unsplash.com/photo-1549759594-0d842f402b4d?q=80&w=1898&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="pizza from unsplash"
+                className="w-full h-full object-cover"
               />
             </div>
-            <div className="h-28 group relative after:content-[''] after:absolute after:inset-0 after:bg-black/25 after:z-50 after:scale-0 hover:after:scale-100 after:transition-all after:duration-500 after:ease-in-out rounded overflow-hidden">
-              <span className="group-hover:block hidden text-primary absolute top-1/2 left-1/2 whitespace-nowrap -translate-x-1/2 -translate-y-1/2">
-                See on IG
-              </span>
+            <div className="relative rounded-md cursor-pointer overflow-hidden group after:content-[''] hover:after:bg-black/20 after:absolute after:inset-0 h-[100px]">
+              <div className="absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-xs z-10">
+                <span className="text-center inline-block">
+                  <img
+                    src="/logo/instagram.svg"
+                    alt="logo instaram from pngwing"
+                    className="mx-auto w-[40px] object-cover"
+                    width={40}
+                    height={40}
+                  />
+                  <p className="-mt-1">See on Instagram</p>
+                </span>
+              </div>
+              {/* https://unsplash.com/photos/burger-on-black-plate-beside-gray-stainless-steel-dining-fork-YuKwHTNVAiI */}
               <img
-                src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/Jakarta_Indonesia_National-Monument-02.jpg/1200px-Jakarta_Indonesia_National-Monument-02.jpg"
-                alt=""
-                className="h-full w-full object-cover"
+                src="https://images.unsplash.com/photo-1549759594-0d842f402b4d?q=80&w=1898&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="hotdog from unsplash"
+                className="w-full h-full object-cover"
               />
             </div>
-            <div className="h-28 group relative after:content-[''] after:absolute after:inset-0 after:bg-black/25 after:z-50 after:scale-0 hover:after:scale-100 after:transition-all after:duration-500 after:ease-in-out rounded overflow-hidden">
-              <span className="group-hover:block hidden text-primary absolute top-1/2 left-1/2 whitespace-nowrap -translate-x-1/2 -translate-y-1/2">
-                See on IG
-              </span>
+            <div className="relative rounded-md cursor-pointer overflow-hidden group after:content-[''] hover:after:bg-black/20 after:absolute after:inset-0 h-[100px]">
+              <div className="absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-xs z-10">
+                <span className="text-center inline-block">
+                  <img
+                    src="/logo/instagram.svg"
+                    alt="logo instaram from pngwing"
+                    className="mx-auto w-[40px] object-cover"
+                    width={40}
+                    height={40}
+                  />
+                  <p className="-mt-1">See on Instagram</p>
+                </span>
+              </div>
+              {/* https://unsplash.com/photos/a-person-is-cooking-food-on-a-grill-okLhhXJlFaA */}
               <img
-                src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/Jakarta_Indonesia_National-Monument-02.jpg/1200px-Jakarta_Indonesia_National-Monument-02.jpg"
-                alt=""
-                className="h-full w-full object-cover"
+                src="https://images.unsplash.com/photo-1549759594-0d842f402b4d?q=80&w=1898&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="BBQ from unsplash"
+                className="w-full h-full object-cover"
               />
             </div>
-            <div className="h-28 group relative after:content-[''] after:absolute after:inset-0 after:bg-black/25 after:z-50 after:scale-0 hover:after:scale-100 after:transition-all after:duration-500 after:ease-in-out rounded overflow-hidden">
-              <span className="group-hover:block hidden text-primary absolute top-1/2 left-1/2 whitespace-nowrap -translate-x-1/2 -translate-y-1/2">
-                See on IG
-              </span>
+            <div className="relative rounded-md cursor-pointer overflow-hidden group after:content-[''] hover:after:bg-black/20 after:absolute after:inset-0 h-[100px]">
+              <div className="absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-xs z-10">
+                <span className="text-center inline-block">
+                  <img
+                    src="/logo/instagram.svg"
+                    alt="logo instaram from pngwing"
+                    className="mx-auto w-[40px] object-cover"
+                    width={40}
+                    height={40}
+                  />
+                  <p className="-mt-1">See on Instagram</p>
+                </span>
+              </div>
+              {/* https://unsplash.com/photos/close-up-photo-of-cooked-food-on-square-white-plate-auIbTAcSH6E */}
               <img
-                src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/Jakarta_Indonesia_National-Monument-02.jpg/1200px-Jakarta_Indonesia_National-Monument-02.jpg"
-                alt=""
-                className="h-full w-full object-cover"
+                src="https://images.unsplash.com/photo-1549759594-0d842f402b4d?q=80&w=1898&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="beef from unsplash"
+                className="w-full h-full object-cover"
               />
             </div>
           </div>
