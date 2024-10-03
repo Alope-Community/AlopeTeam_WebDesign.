@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Pizza",
+    "img": "pizza.jpg",
+    "description": "Offering a variety of delicious pizzas"
+  },
+  {
+    "title": "Burger",
+    "img": "burger.jpg",
+    "description": "Offering a variety of delicious pizzas"
+  },
+  {
+    "title": "BBQ",
+    "img": "bbq.jpg",
+    "description": "Offering a variety of delicious pizzas"
+  }
+]
