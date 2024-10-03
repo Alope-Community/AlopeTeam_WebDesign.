@@ -1,19 +1,24 @@
-import { Title } from "../../../components/text";
+import { Subtitle, Title } from "../../../components/text";
 import CardLocation from "./card";
 
 import locations from "../../../data/locations.json";
+import StoreIcon from "../../../components/icons/store";
 
 export default function HomeLocationSection() {
   return (
-    <section className="grid grid-cols-5 gap-16 px-20 py-16 bg-light-dark py-20">
+    <section className="grid grid-cols-5 gap-16 px-20 bg-light-dark py-20">
       <div className="col-span-2 text-gray-200 flex items-center text-center border-solid border-2 border-primary px-10 py-14">
         <div>
-          <div className="flex items-center justify-center">
+          <div className="flex items-center gap-6 justify-center">
             <hr className="flex-grow border-2 border-primary mx-2" />
-            <Title text="RESTORAN" />
+            <div>
+              <StoreIcon myClass="size-10 mx-auto mb-2 text-gray-400" />
+              <Subtitle text="Cluck N Roll" />
+              <Title text="RESTORAN" />
+            </div>
             <hr className="flex-grow border-2 border-primary mx-2" />
           </div>
-          <p className="mt-3">
+          <p className="mt-5 text-gray-200 ">
             Lorem ipsum dolor sit, amet consectetur <br />
             adipisicing elit. Ullam corrupti distinctio et voluptates minima
             officia?
@@ -24,7 +29,8 @@ export default function HomeLocationSection() {
         {locations.map((locations, index) => (
           <CardLocation
             key={index}
-            name={locations.name}
+            title={locations.title}
+            subtitle={locations.subtitle}
             image={locations.image}
           />
         ))}

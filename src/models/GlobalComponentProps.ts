@@ -15,7 +15,8 @@ type CardMenuProps = {
 };
 
 type CardLocationProps = {
-  name: string;
+  title: string;
+  subtitle: string;
   image: string;
 };
 

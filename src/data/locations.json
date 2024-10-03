@@ -1,14 +1,17 @@
 [
   {
-    "name": "Jakarta",
+    "title": "Jakarta",
+    "subtitle": "10 Toko di 4 kota",
     "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/Jakarta_Indonesia_National-Monument-02.jpg/1200px-Jakarta_Indonesia_National-Monument-02.jpg"
   },
   {
-    "name": "Bandung",
+    "title": "Bandung",
+    "subtitle": "10 Toko di 4 kota",
     "image": "https://png.pngtree.com/thumb_back/fw800/background/20220911/pngtree-gedung-sate-asian-central-tourist-photo-image_1317837.jpg"
   },
   {
-    "name": "Surabaya",
+    "title": "Surabaya",
+    "subtitle": "10 Toko di 4 kota",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuGQg30uG-jIDe7K_rOq1R86Fz66rHxAX63VDLHFgMfehzyYXAIsx-bOgd_CfR1wWaDmg&usqp=CAU"
   }
 ]
