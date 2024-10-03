@@ -1,10 +1,10 @@
-export default function StarIcon() {
+export default function StarIcon({ myClass }: { myClass: string }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 24 24"
       fill="currentColor"
-      className="size-4 text-yellow-400"
+      className={myClass}
     >
       <path
         fillRule="evenodd"

@@ -11,9 +11,9 @@ export default function HomeView() {
   return (
     <>
       <HomeHeaderSection />
+      <HomeBenefitSection />
       <HomeFavoriteSection />
       <HomeTypeSection />
-      <HomeBenefitSection />
       <HomeLocationSection />
       <HomeRestaurantSection />
       <HomeFooterSection />
