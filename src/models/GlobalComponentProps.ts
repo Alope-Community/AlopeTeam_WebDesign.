@@ -31,6 +31,11 @@ type HeaderProps = {
   currentImg: string;
 };
 
+type ListFooterProps = {
+  title: string;
+  description: string;
+};
+
 export type {
   ButtonProps,
   TextProps,
@@ -38,4 +43,5 @@ export type {
   CardMenuProps,
   CardBenefitProps,
   HeaderProps,
+  ListFooterProps,
 };

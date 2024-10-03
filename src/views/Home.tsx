@@ -1,6 +1,6 @@
 // section component
 import HomeFavoriteSection from "../section/Home/favorite";
-import HomeFooterSection from "../section/Home/footer";
+import HomeFooterSection from "../components/footer";
 import HomeLocationSection from "../section/Home/location";
 import HomeTypeSection from "../section/Home/type";
 import HomeBenefitSection from "../section/Home/benefit";
@@ -17,8 +17,6 @@ export default function HomeView() {
       <HomeLocationSection />
       <HomeRestaurantSection />
       <HomeFooterSection />
-
-      <div className="bg-dark text-primary ">fwefewf</div>
     </>
   );
 }
