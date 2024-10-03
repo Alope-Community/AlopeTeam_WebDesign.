@@ -5,7 +5,7 @@ import { Subtitle, Title } from "../../../components/text";
 import Button from "../../../components/button";
 
 // components
-import RestaurantCard from "./homeRestaurantCard";
+import RestaurantCard from "./card";
 
 // data
 import restaurants from "../../../data/restaurants.json";

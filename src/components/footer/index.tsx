@@ -6,7 +6,7 @@ import contact from "../../data/contact.json";
 
 export default function HomeFooterSection() {
   return (
-    <footer className="bg-light-dark px-20 pt-10 pb-5">
+    <footer className="bg-light-dark px-20 pt-10 pb-5 mt-20">
       <div className="grid grid-cols-5 gap-5">
         <div className="col-span-2">
           <Title text="ClucknRoll" />

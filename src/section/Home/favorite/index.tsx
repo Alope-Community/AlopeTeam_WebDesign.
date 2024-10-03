@@ -5,7 +5,7 @@ import Button from "../../../components/button";
 
 export default function HomeFavoriteSection() {
   return (
-    <section className="py-8">
+    <section className="py-8 mb-20">
       <div className="text-center uppercase mb-12 md:mb-28 relative">
         <Subtitle text={"Menu Favorit"} />
         <Title text={"Menu dengan Ragam Bumbu Khas"} />
@@ -20,7 +20,7 @@ export default function HomeFavoriteSection() {
           />
         ))}
       </div>
-      <div className="text-center mt-8">
+      <div className="text-center">
         <Button text="View Full Menu" to="/" />
       </div>
     </section>

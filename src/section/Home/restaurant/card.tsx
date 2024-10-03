@@ -1,6 +1,6 @@
 // icons
 import { ChevronRight } from "../../../components/icons/chevron";
-import StarIcon from "./../../../components/icons/star";
+import StarIcon from "../../../components/icons/star";
 
 // models
 import { Restaurant } from "../../../models/Resturant";
@@ -22,7 +22,7 @@ export default function RestaurantCard({
       >
         <div className="bg-[#191f25] absolute bottom-1 xl:bottom-5 left-1 xl:left-5 right-1 xl:right-5 p-5 rounded-md">
           <div className="flex gap-1 items-center">
-            <StarIcon />
+            <StarIcon myClass="text-yellow-400 size-4" />
             <p className="text-yellow-400 text-sm xl:text-base">
               {restaurant.star}
             </p>

@@ -5,7 +5,7 @@ import locations from "../../../data/locations.json";
 
 export default function HomeLocationSection() {
   return (
-    <section className="grid grid-cols-5 gap-16 px-20 py-16">
+    <section className="grid grid-cols-5 gap-16 px-20 py-16 bg-light-dark py-20">
       <div className="col-span-2 text-gray-200 flex items-center text-center border-solid border-2 border-primary px-10 py-14">
         <div>
           <div className="flex items-center justify-center">
