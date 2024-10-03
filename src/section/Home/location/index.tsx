@@ -6,9 +6,9 @@ import StoreIcon from "../../../components/icons/store";
 
 export default function HomeLocationSection() {
   return (
-    <section className="grid grid-cols-5 gap-16 px-20 bg-light-dark py-20">
-      <div className="col-span-2 text-gray-200 flex items-center text-center border-solid border-2 border-primary px-10 py-14">
-        <div>
+    <section className="grid grid-cols-3 xl:grid-cols-5 gap-16 px-5 md:px-10 xl:px-20 bg-light-dark py-20">
+      <div className="col-span-3 xl:col-span-2 text-gray-200 flex items-center text-center border-solid border-2 border-primary px-10 py-14">
+        <div className="text-center mx-auto">
           <div className="flex items-center gap-6 justify-center">
             <hr className="flex-grow border-2 border-primary mx-2" />
             <div>
@@ -25,7 +25,7 @@ export default function HomeLocationSection() {
           </p>
         </div>
       </div>
-      <div className="grid col-span-3 grid-cols-3 gap-2">
+      <div className="hidden md:grid grid-cols-3 col-span-3 gap-2">
         {locations.map((locations, index) => (
           <CardLocation
             key={index}

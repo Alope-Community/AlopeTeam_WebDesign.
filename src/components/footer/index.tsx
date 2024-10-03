@@ -5,9 +5,9 @@ import contact from "../../data/contact.json";
 
 export default function HomeFooterSection() {
   return (
-    <footer className="bg-light-dark px-20 pt-10 pb-5 mt-20">
-      <div className="grid grid-cols-5 gap-5">
-        <div className="col-span-2">
+    <footer className="bg-light-dark px-5 md:px-10 xl:px-20 pt-10 pb-5 mt-20">
+      <div className="md:grid grid-cols-2 xl:grid-cols-5 gap-5">
+        <div className="md:col-span-2 mb-10">
           <Title text="ClucknRoll" />
           <p className="mt-5 text-sm text-gray-200">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis
@@ -20,7 +20,7 @@ export default function HomeFooterSection() {
             08:00 AM - 17:00 PM
           </p>
         </div>
-        <div className="text-gray-100">
+        <div className="text-gray-100 mb-10">
           <h4 className="font-semibold text-xl mb-4">Contact us</h4>
           {contact.map((contact, index) => (
             <ListContact
@@ -30,7 +30,7 @@ export default function HomeFooterSection() {
             />
           ))}
         </div>
-        <div className="col-span-2">
+        <div className="xl:col-span-2">
           <p className="font-semibold text-xl pb-4 text-gray-100">
             Follow us on Instagram
           </p>

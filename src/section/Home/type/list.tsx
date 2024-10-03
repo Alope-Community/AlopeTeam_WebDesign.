@@ -3,13 +3,13 @@ import menuTypes from "../../../data/menuTypes.json";
 export default function ListType() {
   return (
     <div className="px-5 py-10 col-span-4">
-      <h1 className="text-3xl font-bold text-red-500 mb-5">
+      <h2 className="text-2xl md:text-3xl font-bold text-red-500 mb-5 md:text-left text-center">
         THE TYPE OF CHICKEN
-      </h1>
-      <div className="space-y-8">
+      </h2>
+      <div className="space-y-8 md:text-left text-center">
         {menuTypes.map((type, index) => (
-          <div key={index} className="flex items-center space-x-5">
-            <div className="w-20 h-20 flex-shrink-0 relative">
+          <div key={index} className="md:flex items-center space-x-5">
+            <div className="w-20 h-20 flex-shrink-0 relative mx-auto md:mx-0">
               <img
                 src={`/menus/${type.image}`}
                 alt={type.description}
