@@ -32,10 +32,23 @@ export default function Navbar() {
             Cluck N Roll
           </p>
         </div>
-        <div className="col-span-2">
+        <div className="xl:col-span-2 flex items-center justify-end gap-2">
           <NavbarSearch lang={lang} />
+          <div className="flex xl:hidden">
+            <button
+              title="Toggle fullscreen nav"
+              aria-label="Toggle fullscreen nav"
+              type="button"
+              className="p-1 sm:p-2 rounded-md bg-primary hover:opacity-90 text-white text-sm flex items-center gap-2 justify-center"
+              onClick={() => {
+                setShowFullScreenNav(!showFullScreenNav);
+              }}
+            >
+              <BarsIcon myClass="size-5 sm:size-6" />
+            </button>
+          </div>
         </div>
-        <div className="col-span-2 flex items-center justify-end gap-10">
+        <div className="xl:col-span-2 hidden xl:flex items-center justify-end gap-10">
           <NavbarLinks lang={lang} />
           <NavbarAction
             toggleNavScreen={() => {
@@ -44,7 +57,7 @@ export default function Navbar() {
             lang={lang}
           />
         </div>
-        <div className="flex md:hidden justify-end">
+        {/* <div className="flex md:hidden justify-end">
           <button
             title="Toggle fullscreen nav"
             aria-label="Toggle fullscreen nav"
@@ -56,7 +69,7 @@ export default function Navbar() {
           >
             <BarsIcon myClass="size-5 sm:size-6" />
           </button>
-        </div>
+        </div> */}
       </nav>
       <FullScreenNav
         show={showFullScreenNav}
