@@ -6,6 +6,7 @@ import HomeTypeSection from "../section/Home/type";
 import HomeBenefitSection from "../section/Home/benefit";
 import HomeHeaderSection from "../section/Home/header";
 import HomeRestaurantSection from "../section/Home/restaurant";
+import QuoteHomeSection from "../section/Home/quote";
 
 export default function HomeView() {
   return (
@@ -16,6 +17,7 @@ export default function HomeView() {
       <HomeFavoriteSection />
       <HomeLocationSection />
       <HomeRestaurantSection />
+      <QuoteHomeSection />
       <HomeFooterSection />
     </>
   );
