@@ -22,6 +22,18 @@ type CardLocationProps = {
 type CardBenefitProps = {
   title: string;
   image: string;
-}
+};
 
-export type { ButtonProps, TextProps, CardLocationProps, CardMenuProps, CardBenefitProps };
+type ListFooterProps = {
+  title: string;
+  description: string;
+};
+
+export type {
+  ButtonProps,
+  TextProps,
+  CardLocationProps,
+  CardMenuProps,
+  CardBenefitProps,
+  ListFooterProps,
+};
