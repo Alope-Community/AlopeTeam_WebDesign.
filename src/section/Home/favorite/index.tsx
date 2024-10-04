@@ -14,7 +14,7 @@ export default function HomeFavoriteSection() {
         {menus.map((menu, index) => (
           <CardFavorite
             key={index}
-            name={menu.name}
+            title={menu.name}
             image={menu.image}
             description={menu.description}
           />
