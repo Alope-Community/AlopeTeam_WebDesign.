@@ -18,7 +18,10 @@ export default function RestaurantCard({
       <span className="hidden bg-[url(https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)]"></span>
       {/* img from unsplash */}
       <div
-        className={`bg-[url(${restaurant.img})] h-[350px] xl:h-[400px] rounded-lg w-full bg-cover relative`}
+        className={`h-[350px] xl:h-[400px] rounded-lg w-full bg-cover relative`}
+        style={{
+          backgroundImage: `url(/locations2/${restaurant.img})`,
+        }}
       >
         <div className="bg-[#191f25] absolute bottom-1 xl:bottom-5 left-1 xl:left-5 right-1 xl:right-5 p-5 rounded-md">
           <div className="flex gap-1 items-center">
