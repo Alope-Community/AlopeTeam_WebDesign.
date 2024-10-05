@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router-dom";
 // views
 import HomeView from "./views/Home";
 import Navbar from "./components/navbar";
+import LocationView from "./views/Location";
 
 export default function App() {
   return (
@@ -10,7 +11,7 @@ export default function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<HomeView />} />
-        <Route path="/menu" element={<p>Menu</p>} />
+        <Route path="/location" element={<LocationView />} />
       </Routes>
     </>
   );
