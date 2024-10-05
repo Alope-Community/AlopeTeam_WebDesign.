@@ -4,6 +4,7 @@ import { Route, Routes } from "react-router-dom";
 import HomeView from "./views/Home";
 import Navbar from "./components/navbar";
 import MenuView from "./views/Menu";
+import LocationView from "./views/Location";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<HomeView />} />
         <Route path="/menu" element={<MenuView />} />
+        <Route path="/location" element={<LocationView />} />
       </Routes>
     </>
   );

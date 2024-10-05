@@ -58,7 +58,7 @@ export default function CardMenu({ item, isActive, onClick }: CardProps) {
       ) : (
         <div className="bg-white p-4 rounded-lg m-5">
           <h1 className="text-lg font-bold">Nutrition Facts</h1>
-          <h6 className="text-lg mb-2 border-b border-gray-300 pb-2">
+          <h6 className="text-lg mb-2 border-b border-gray-200 pb-2">
             {item.name}
           </h6>
           <div className="grid grid-cols-2 gap-2">
@@ -82,7 +82,7 @@ export default function CardMenu({ item, isActive, onClick }: CardProps) {
             <p>Net Carbs</p>
             <p className="text-right font-bold">{item.nutritions.net_carbs}</p>
 
-            <p className="text-gray-500">Sugars</p>
+            <p >Sugars</p>
             <p className="text-right font-bold">{item.nutritions.sugars}</p>
 
             <p>Dietary Fiber</p>
