@@ -3,7 +3,7 @@ import ListContact from "./list";
 
 import contact from "../../data/contact.json";
 
-export default function HomeFooterSection() {
+export default function Footer() {
   return (
     <footer className="bg-light-dark px-5 md:px-10 xl:px-20 pt-10 pb-5 mt-20">
       <div className="md:grid grid-cols-2 xl:grid-cols-5 gap-5">
