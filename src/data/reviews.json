@@ -1,0 +1,68 @@
+[
+  {
+    "image": "1.svg",
+    "name": "Saeful Rohman",
+    "payment": "Rp 150.000,00",
+    "review": "Makanannya benar-benar enak, ketika di mulut terasa banyak rempah-rempah."
+  },
+  {
+    "image": "2.svg",
+    "name": "Dwi Lestari",
+    "payment": "Rp 200.000,00",
+    "review": "Pelayanan sangat baik dan cepat, pengirimannya juga tepat waktu!"
+  },
+  {
+    "image": "3.svg",
+    "name": "Budi Santoso",
+    "payment": "Rp 250.000,00",
+    "review": "Makanan datang dengan kemasan yang rapi, rasanya luar biasa!"
+  },
+  {
+    "image": "4.svg",
+    "name": "Fitri Nurhayati",
+    "payment": "Rp 300.000,00",
+    "review": "Pengalaman yang menyenangkan, saya pasti akan memesan lagi."
+  },
+  {
+    "image": "5.svg",
+    "name": "Andi Pratama",
+    "payment": "Rp 180.000,00",
+    "review": "Harganya terjangkau dan rasanya enak, cocok untuk keluarga."
+  },
+  {
+    "image": "6.svg",
+    "name": "Siti Aminah",
+    "payment": "Rp 220.000,00",
+    "review": "Sangat puas dengan kualitas makanannya, benar-benar memuaskan!"
+  },
+  {
+    "image": "7.svg",
+    "name": "Rian Saputra",
+    "payment": "Rp 270.000,00",
+    "review": "Rasa makanan sangat otentik, tidak bisa berhenti memakannya!"
+  },
+  {
+    "image": "8.svg",
+    "name": "Lina Kartika",
+    "payment": "Rp 190.000,00",
+    "review": "Pengalaman belanja yang mudah dan makanan yang lezat."
+  },
+  {
+    "image": "9.svg",
+    "name": "Rizky Aditya",
+    "payment": "Rp 160.000,00",
+    "review": "Cepat sampai dan rasa makanannya benar-benar enak!"
+  },
+  {
+    "image": "10.svg",
+    "name": "Lina Kartika",
+    "payment": "Rp 190.000,00",
+    "review": "Pengalaman belanja yang mudah dan makanan yang lezat."
+  },
+  {
+    "image": "11.svg",
+    "name": "Rian Saputra",
+    "payment": "Rp 270.000,00",
+    "review": "Rasa makanan sangat otentik, tidak bisa berhenti memakannya!"
+  }
+]

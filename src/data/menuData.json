@@ -1,0 +1,104 @@
+[
+  {
+    "name": "Ayam Geprek",
+    "image": "7.svg",
+    "ingredients": "Roasted Chicken, black beans, salsa and cheddaar",
+    "tag": "530 cals, 39 protein, 55g net carbs",
+    "nutritions": {
+      "calories": "250",
+      "protein": "30g",
+      "total_fat": "12g",
+      "saturated_fat": "3g",
+      "sodium": "700mg",
+      "net_carbs": "20g",
+      "sugars": "2g",
+      "dietary_fiber": "1g",
+      "total_carbs": "21g"
+    }
+  },
+  {
+    "name": "Ayam Goreng Kremes",
+    "image": "7.svg",
+    "ingredients": "Roasted Chicken, black beans, salsa and cheddaar",
+    "tag": "530 cals, 39 protein, 55g net carbs",
+    "nutritions": {
+      "calories": "280",
+      "protein": "28g",
+      "total_fat": "13g",
+      "saturated_fat": "3g",
+      "sodium": "600mg",
+      "net_carbs": "17g",
+      "sugars": "1g",
+      "dietary_fiber": "2g",
+      "total_carbs": "19g"
+    }
+  },
+  {
+    "name": "Ayam Bakar",
+    "image": "7.svg",
+    "ingredients": "Roasted Chicken, black beans, salsa and cheddaar",
+    "tag": "530 cals, 39 protein, 55g net carbs",
+    "nutritions": {
+      "calories": "250",
+      "protein": "27g",
+      "total_fat": "12g",
+      "saturated_fat": "2g",
+      "sodium": "600mg",
+      "net_carbs": "15g",
+      "sugars": "1g",
+      "dietary_fiber": "1g",
+      "total_carbs": "16g"
+    }
+  },
+  {
+    "name": "Ayam Penyet",
+    "image": "7.svg",
+    "ingredients": "Roasted Chicken, black beans, salsa and cheddaar",
+    "tag": "530 cals, 39 protein, 55g net carbs",
+    "nutritions": {
+      "calories": "250",
+      "protein": "29g",
+      "total_fat": "12g",
+      "saturated_fat": "3g",
+      "sodium": "600mg",
+      "net_carbs": "17g",
+      "sugars": "1g",
+      "dietary_fiber": "2g",
+      "total_carbs": "19g"
+    }
+  },
+  {
+    "name": "Ayam Pop",
+    "image": "7.svg",
+    "ingredients": "Roasted Chicken, black beans, salsa and cheddaar",
+    "tag": "530 cals, 39 protein, 55g net carbs",
+    "nutritions": {
+      "calories": "240",
+      "protein": "26g",
+      "total_fat": "11g",
+      "saturated_fat": "3g",
+      "sodium": "560mg",
+      "net_carbs": "14g",
+      "sugars": "1g",
+      "dietary_fiber": "1g",
+      "total_carbs": "15g"
+    }
+  },
+  {
+    "name": "Ayam Serundeng",
+    "image": "7.svg",
+    "ingredients": "Roasted Chicken, black beans, salsa and cheddaar",
+    "tag": "530 cals, 39 protein, 55g net carbs",
+    "nutritions": {
+      "calories": "270",
+      "protein": "27g",
+      "total_fat": "12g",
+      "saturated_fat": "3g",
+      "sodium": "600mg",
+      "net_carbs": "17g",
+      "sugars": "1g",
+      "dietary_fiber": "2g",
+      "total_carbs": "19g"
+    }
+  }
+]

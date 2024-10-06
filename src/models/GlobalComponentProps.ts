@@ -8,12 +8,6 @@ type TextProps = {
   text: string;
 };
 
-type CardMenuProps = {
-  name: string;
-  description: string;
-  image: string;
-};
-
 type CardLocationProps = {
   title: string;
   subtitle: string;
@@ -22,6 +16,12 @@ type CardLocationProps = {
 
 type CardBenefitProps = {
   title: string;
+  image: string;
+};
+
+type CardFavoriteProps = {
+  title: string;
+  description: string;
   image: string;
 };
 
@@ -37,6 +37,37 @@ type ListFooterProps = {
   description: string;
 };
 
+type MenuItem = {
+  name: string;
+  image: string;
+  ingredients: string;
+  tag: string;
+  nutritions: {
+    calories: string;
+    protein: string;
+    total_fat: string;
+    saturated_fat: string;
+    sodium: string;
+    net_carbs: string;
+    sugars: string;
+    dietary_fiber: string;
+    total_carbs: string;
+  };
+};
+
+type CardMenuProps = {
+  item: MenuItem;
+  isActive: boolean;
+  onClick: () => void;
+};
+
+type CardReviewProps = {
+  image: string;
+  name: string;
+  purchase: string;
+  review: string;
+}
+
 export type {
   ButtonProps,
   TextProps,
@@ -45,4 +76,6 @@ export type {
   CardBenefitProps,
   HeaderProps,
   ListFooterProps,
+  CardFavoriteProps,
+  CardReviewProps
 };

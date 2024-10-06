@@ -1,10 +1,11 @@
-import React from "react";
-import MapLocationSection from "./../section/Location/map";
+import LocationAboutSection from "../section/Location/About";
+import LocationAccordionSection from "../section/Location/Accordion";
 
 export default function LocationView() {
   return (
     <>
-      <MapLocationSection />
+      <LocationAccordionSection />
+      <LocationAboutSection />
     </>
   );
 }

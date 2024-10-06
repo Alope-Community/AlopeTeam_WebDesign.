@@ -2,7 +2,7 @@
   {
     "name": "Test",
     "description": "Specializes in grilled and smoked meats.",
-    "img": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "img": "1.png",
     "alt": "https://unsplash.com/photos/people-inside-restaurant-LOLSb7m6XkU",
     "star": 5.0,
     "totalReview": 10,
@@ -19,7 +19,7 @@
   {
     "name": "Test 2",
     "description": "A restaurant that focuses on seafood and fresh seafood.",
-    "img": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "img": "2.png",
     "alt": "https://unsplash.com/photos/clear-glass-cup-on-brown-wooden-table-sQopSb2K0CU",
     "star": 5.0,
     "totalReview": 10,
@@ -36,7 +36,7 @@
   {
     "name": "Test 3",
     "description": "Featuring a traditional menu with heritage recipes.",
-    "img": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "img": "3.png",
     "alt": "https://unsplash.com/photos/tables-and-chairs-inside-building-H7xTpvBjJS4",
     "star": 5.0,
     "totalReview": 10,
@@ -53,7 +53,7 @@
   {
     "name": "Test 4",
     "description": "Restaurant serving healthy and organic food in a garden setting.",
-    "img": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "img": "4.png",
     "alt": "https://unsplash.com/photos/photo-of-pub-set-in-room-during-daytime-poI7DelFiVA",
     "star": 5.0,
     "totalReview": 10,
@@ -70,7 +70,7 @@
   {
     "name": "Test 4",
     "description": "A place with a lively atmosphere and food to share, perfect for family or friends gatherings.",
-    "img": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "img": "5.png",
     "alt": "https://unsplash.com/photos/two-person-sitting-on-bar-stool-chair-in-front-of-bar-front-desk-8x_fFNrmeDk",
     "star": 5.0,
     "totalReview": 10,
@@ -87,7 +87,7 @@
   {
     "name": "Test 5",
     "description": "Specializes in the Serpong branch's grill and smoked meat menu..",
-    "img": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "img": "6.png",
     "alt": "https://unsplash.com/photos/people-sitting-inside-cafe-klXhDG8Roj4",
     "star": 5.0,
     "totalReview": 10,
@@ -104,7 +104,7 @@
   {
     "name": "Test 6",
     "description": "Specializes in the Jepara branch's grill and smoked meat menu.",
-    "img": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "img": "7.png",
     "alt": "https://unsplash.com/photos/people-sitting-inside-cafe-klXhDG8Roj4",
     "star": 5.0,
     "totalReview": 10,
