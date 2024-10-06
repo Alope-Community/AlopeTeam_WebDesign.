@@ -4,7 +4,7 @@ export default function ListType() {
   return (
     <div className="px-5 py-10 col-span-4">
       <h2 className="text-2xl md:text-3xl font-bold text-red-500 mb-5 md:text-left text-center">
-        THE TYPE OF CHICKEN
+      ANEKA OLAHAN AYAM
       </h2>
       <div className="space-y-8 md:text-left text-center">
         {menuTypes.map((type, index) => (

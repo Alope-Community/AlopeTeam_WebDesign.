@@ -1,13 +1,13 @@
 [
   {
-    "name": "Test",
+    "name": "Cluck N Roll Cigembang",
     "description": "Specializes in grilled and smoked meats.",
     "img": "1.png",
-    "alt": "https://unsplash.com/photos/people-inside-restaurant-LOLSb7m6XkU",
-    "star": 5.0,
+    "alt": "1.png",
+    "star": 9.0,
     "totalReview": 10,
     "prices": {
-      "min": 20000,
+      "min": 25000,
       "max": 200000
     },
     "location": "kuningan",
@@ -17,15 +17,15 @@
     }
   },
   {
-    "name": "Test 2",
+    "name": "Juara Crispy",
     "description": "A restaurant that focuses on seafood and fresh seafood.",
     "img": "2.png",
-    "alt": "https://unsplash.com/photos/clear-glass-cup-on-brown-wooden-table-sQopSb2K0CU",
-    "star": 5.0,
+    "alt": "2.png",
+    "star": 8.9,
     "totalReview": 10,
     "prices": {
-      "min": 10000,
-      "max": 250000
+      "min": 15000,
+      "max": 150000
     },
     "location": "kuningan",
     "longlat": {
@@ -34,14 +34,14 @@
     }
   },
   {
-    "name": "Test 3",
+    "name":"Ultimate Test",
     "description": "Featuring a traditional menu with heritage recipes.",
     "img": "3.png",
-    "alt": "https://unsplash.com/photos/tables-and-chairs-inside-building-H7xTpvBjJS4",
-    "star": 5.0,
+    "alt": "3.png",
+    "star": 9.5,
     "totalReview": 10,
     "prices": {
-      "min": 70000,
+      "min": 55000,
       "max": 800000
     },
     "location": "kuningan",
@@ -51,15 +51,15 @@
     }
   },
   {
-    "name": "Test 4",
+    "name": "Crispy Corner",
     "description": "Restaurant serving healthy and organic food in a garden setting.",
     "img": "4.png",
-    "alt": "https://unsplash.com/photos/photo-of-pub-set-in-room-during-daytime-poI7DelFiVA",
-    "star": 5.0,
+    "alt": "4.png",
+    "star": 8.5 ,
     "totalReview": 10,
     "prices": {
       "min": 20000,
-      "max": 200000
+      "max": 100000
     },
     "location": "jakarta",
     "longlat": {
@@ -68,15 +68,15 @@
     }
   },
   {
-    "name": "Test 4",
+    "name": "Hot & Crunchy",
     "description": "A place with a lively atmosphere and food to share, perfect for family or friends gatherings.",
     "img": "5.png",
-    "alt": "https://unsplash.com/photos/two-person-sitting-on-bar-stool-chair-in-front-of-bar-front-desk-8x_fFNrmeDk",
-    "star": 5.0,
+    "alt": "5.png",
+    "star": 8.8,
     "totalReview": 10,
     "prices": {
-      "min": 10000,
-      "max": 250000
+      "min": 15000,
+      "max": 75000
     },
     "location": "jakarta",
     "longlat": {
@@ -85,15 +85,15 @@
     }
   },
   {
-    "name": "Test 5",
+    "name": "Prime Chicken",
     "description": "Specializes in the Serpong branch's grill and smoked meat menu..",
     "img": "6.png",
-    "alt": "https://unsplash.com/photos/people-sitting-inside-cafe-klXhDG8Roj4",
-    "star": 5.0,
+    "alt": "6.png",
+    "star": 8.9,
     "totalReview": 10,
     "prices": {
-      "min": 70000,
-      "max": 800000
+      "min": 25000,
+      "max": 80000
     },
     "location": "jakarta",
     "longlat": {
@@ -102,17 +102,187 @@
     }
   },
   {
-    "name": "Test 6",
+    "name": "Cluck Corner",
     "description": "Specializes in the Jepara branch's grill and smoked meat menu.",
     "img": "7.png",
-    "alt": "https://unsplash.com/photos/people-sitting-inside-cafe-klXhDG8Roj4",
-    "star": 5.0,
+    "alt": "7.png",
+    "star": 8.7,
     "totalReview": 10,
     "prices": {
-      "min": 70000,
-      "max": 800000
+      "min": 10000,
+      "max": 75000
     },
     "location": "jakarta",
+    "longlat": {
+      "lat": -6.5420603,
+      "lng": 110.6990796
+    }
+  },
+  {
+    "name": "Fresh Roll",
+    "description": "Specializes in the Jepara branch's grill and smoked meat menu.",
+    "img": "8.png",
+    "alt": "8.png",
+    "star": 8.6,
+    "totalReview": 10,
+    "prices": {
+      "min": 25000,
+      "max": 75000
+    },
+    "location": "jakarta",
+    "longlat": {
+      "lat": -6.5420603,
+      "lng": 110.6990796
+    }
+  },
+  {
+    "name": "Lucky Chicken",
+    "description": "Specializes in the Jepara branch's grill and smoked meat menu.",
+    "img": "9.png",
+    "alt": "9.png",
+    "star": 9.5,
+    "totalReview": 10,
+    "prices": {
+      "min": 25000,
+      "max": 150000
+    },
+    "location": "jakarta",
+    "longlat": {
+      "lat": -6.5420603,
+      "lng": 110.6990796
+    }
+  },
+  {
+    "name": "Crispy Delight",
+    "description": "Specializes in the Jepara branch's grill and smoked meat menu.",
+    "img": "10.png",
+    "alt": "10.png",
+    "star": 9.5,
+    "totalReview": 10,
+    "prices": {
+      "min": 25000,
+      "max": 150000
+    },
+    "location": "bandung",
+    "longlat": {
+      "lat": -6.5420603,
+      "lng": 110.6990796
+    }
+  },
+  {
+    "name": "Cluck Cafe",
+    "description": "Specializes in the Jepara branch's grill and smoked meat menu.",
+    "img": "6.png",
+    "alt": "6.png",
+    "star": 8.9,
+    "totalReview": 10,
+    "prices": {
+      "min": 20000,
+      "max": 100000
+    },
+    "location": "bandung",
+    "longlat": {
+      "lat": -6.5420603,
+      "lng": 110.6990796
+    }
+  },
+  {
+    "name": "The Chicken Bar",
+    "description": "Specializes in the Jepara branch's grill and smoked meat menu.",
+    "img": "3.png",
+    "alt": "3.png",
+    "star": 8.9,
+    "totalReview": 10,
+    "prices": {
+      "min": 55000,
+      "max": 175000
+    },
+    "location": "bandung",
+    "longlat": {
+      "lat": -6.5420603,
+      "lng": 110.6990796
+    }
+  },
+  {
+    "name": "Juicy Bites ",
+    "description": "Specializes in the Jepara branch's grill and smoked meat menu.",
+    "img": "2.png",
+    "alt": "2.png",
+    "star": 8.4,
+    "totalReview": 10,
+    "prices": {
+      "min": 75000,
+      "max": 200000
+    },
+    "location": "bandung",
+    "longlat": {
+      "lat": -6.5420603,
+      "lng": 110.6990796
+    }
+  },
+  {
+    "name": "Champion Chicken ",
+    "description": "Specializes in the Jepara branch's grill and smoked meat menu.",
+    "img": "1.png",
+    "alt": "1.png",
+    "star": 8.7,
+    "totalReview": 10,
+    "prices": {
+      "min": 25000,
+      "max": 200000
+    },
+    "location": "bandung",
+    "longlat": {
+      "lat": -6.5420603,
+      "lng": 110.6990796
+    }
+  },
+  {
+    "name": "Clasic Cluck",
+    "description": "Specializes in the Jepara branch's grill and smoked meat menu.",
+    "img": "8.png",
+    "alt": "8.png",
+    "star": 8.7,
+    "totalReview": 10,
+    "prices": {
+      "min": 25000,
+      "max": 200000
+    },
+    "location": "surabaya",
+    "longlat": {
+      "lat": -6.5420603,
+      "lng": 110.6990796
+    }
+  },
+  {
+    "name": "Center Chicken",
+    "description": "Specializes in the Jepara branch's grill and smoked meat menu.",
+    "img": "4.png",
+    "alt": "4.png",
+    "star": 8.9,
+    "totalReview": 10,
+    "prices": {
+      "min": 17500,
+      "max": 100000
+    },
+    "location": "surabaya",
+    "longlat": {
+      "lat": -6.5420603,
+      "lng": 110.6990796
+    }
+  },
+  {
+    "name": "Ayam Sejati",
+    "description": "Specializes in the Jepara branch's grill and smoked meat menu.",
+    "img": "10.png",
+    "alt": "10.png",
+    "star": 9.2,
+    "totalReview": 10,
+    "prices": {
+      "min": 15000,
+      "max": 75000
+    },
+    "location": "surabaya",
     "longlat": {
       "lat": -6.5420603,
       "lng": 110.6990796

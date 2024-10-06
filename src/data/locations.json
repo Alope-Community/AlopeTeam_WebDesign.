@@ -1,17 +1,17 @@
 [
   {
     "title": "Jakarta",
-    "subtitle": "10 Toko di 4 kota",
-    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/Jakarta_Indonesia_National-Monument-02.jpg/1200px-Jakarta_Indonesia_National-Monument-02.jpg"
+    "subtitle": "6 Restoran yang tersebar <br> di Ibu Kota.",
+    "image": "../../public/locations/location1.jpg"
   },
   {
     "title": "Bandung",
-    "subtitle": "10 Toko di 4 kota",
-    "image": "https://png.pngtree.com/thumb_back/fw800/background/20220911/pngtree-gedung-sate-asian-central-tourist-photo-image_1317837.jpg"
+    "subtitle": "5 Restoran yang tersebar <br> di Kota Kembang",
+    "image": "../../public/locations/location2.jpg"
   },
   {
     "title": "Surabaya",
-    "subtitle": "10 Toko di 4 kota",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuGQg30uG-jIDe7K_rOq1R86Fz66rHxAX63VDLHFgMfehzyYXAIsx-bOgd_CfR1wWaDmg&usqp=CAU"
+    "subtitle": "3 Restoran yang tersebar <br> di Kota Pahlawan",
+    "image": "../../public/locations/location3.jpg"
   }
 ]

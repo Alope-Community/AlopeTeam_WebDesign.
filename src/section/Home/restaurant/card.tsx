@@ -20,7 +20,7 @@ export default function RestaurantCard({
       <div
         className={`h-[350px] xl:h-[400px] rounded-lg w-full bg-cover relative`}
         style={{
-          backgroundImage: `url(/locations2/${restaurant.img})`,
+          backgroundImage: `url(/locations/${restaurant.img})`,
         }}
       >
         <div className="bg-[#191f25] absolute bottom-1 xl:bottom-5 left-1 xl:left-5 right-1 xl:right-5 p-5 rounded-md">

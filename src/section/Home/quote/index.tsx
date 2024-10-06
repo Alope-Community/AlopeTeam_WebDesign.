@@ -9,7 +9,7 @@ export default function QuoteHomeSection({ lang }: { lang?: string }) {
           <p className="text-sm lg:text-base text-gray-200">
             {lang == "en"
               ? "Thank you for visiting ALOPE Taste House! We are committed to always serving high quality dishes that provide an unforgettable culinary experience. With a menu inspired by various Western flavors, we hope to reach the hearts of customers both domestically and internationally."
-              : "Terima kasih telah mengunjungi ALOPE Taste House! Kami berkomitmen untuk selalu menyajikan hidangan berkualitas tinggi yang memberikan pengalaman kuliner tak terlupakan. Dengan menu yang terinspirasi dari berbagai cita rasa Barat, kami berharap dapat menjangkau hati para pelanggan baik di dalam negeri maupun internasional."}
+              : "Terima kasih telah mengunjungi Cluck N Roll Kami berkomitmen untuk selalu menyajikan hidangan berkualitas tinggi yang memberikan pengalaman kuliner tak terlupakan dengan menu yang beragam dan pilihan yang menggugah selera, kami berharap dapat menjangkau hati para pelanggan baik di dalam negeri maupun internasional."}
           </p>
           <p className="lg:text-xl xl:text-2xl mt-3 font-bold text-primary">
             ~ Cluck N Roll
@@ -17,7 +17,7 @@ export default function QuoteHomeSection({ lang }: { lang?: string }) {
         </div>
         <div className="h-full overflow-hidden w-1/2 md:block hidden">
           <img
-            src="https://images.unsplash.com/photo-1591814252471-068b545dff62?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="../../public/quetes.jpg"
             alt="pasta from unsplash"
             className="w-full h-full object-cover md:object-pastaMD xl:object-pastaXL"
             style={{

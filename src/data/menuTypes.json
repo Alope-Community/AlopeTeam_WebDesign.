@@ -1,17 +1,17 @@
 [
   {
     "name": "crispy",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem cumque, error ipsum sed id delectus?",
+    "description": "Digoreng dengan crispy sehingga menghasilkan tekstur yang menggoda.",
     "image": "7.svg"
   },
   {
-    "name": "grilled",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem cumque, error ipsum sed id delectus?",
+    "name": "Bakar",
+    "description": "Dibakar dengan bumbu olesan rahasia yang meresap sempurna.",
     "image": "6.svg"
   },
   {
-    "name": "soup",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem cumque, error ipsum sed id delectus?",
-    "image": "11.svg"
+    "name": "Penyet",
+    "description": "Digoreng garing tetapi masih Juicy dan gurih disajikan dengan sambal.",
+    "image": "9.svg"
   }
 ]

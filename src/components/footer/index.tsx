@@ -10,9 +10,9 @@ export default function Footer() {
         <div className="md:col-span-2 mb-10">
           <Title text="ClucknRoll" />
           <p className="mt-5 text-sm text-gray-200">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis
-            obcaecati aliquid odit placeat. Vero tenetur nisi vitae laboriosam
-            provident dicta?
+            Kami menyajikan berbagai masakan ayam yang berkualitas
+            <br /> dengan rasa autentik dan bahan-bahan segar yang <br /> selalu terjamin,
+            siap memanjakan lidah Anda.
           </p>
 
           <p className="text-gray-200 mt-5">
@@ -50,7 +50,7 @@ export default function Footer() {
               </div>
               {/* https://unsplash.com/photos/selective-focus-photography-of-hamburger-with-sliced-tomatoes-and-vegetables-_TLKIVSW6Do */}
               <img
-                src="https://images.unsplash.com/photo-1549759594-0d842f402b4d?q=80&w=1898&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src="../../public/locations/1.png"
                 alt="burger from unsplash"
                 className="w-full h-full object-cover"
               />
@@ -68,7 +68,7 @@ export default function Footer() {
               </div>
               {/* https://unsplash.com/photos/pizza-on-chopping-board-MqT0asuoIcU */}
               <img
-                src="https://images.unsplash.com/photo-1549759594-0d842f402b4d?q=80&w=1898&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src="../../public/locations/3.png"
                 alt="pizza from unsplash"
                 className="w-full h-full object-cover"
               />
@@ -88,7 +88,7 @@ export default function Footer() {
               </div>
               {/* https://unsplash.com/photos/burger-on-black-plate-beside-gray-stainless-steel-dining-fork-YuKwHTNVAiI */}
               <img
-                src="https://images.unsplash.com/photo-1549759594-0d842f402b4d?q=80&w=1898&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src="../../public/locations/6.png"
                 alt="hotdog from unsplash"
                 className="w-full h-full object-cover"
               />
@@ -108,7 +108,7 @@ export default function Footer() {
               </div>
               {/* https://unsplash.com/photos/a-person-is-cooking-food-on-a-grill-okLhhXJlFaA */}
               <img
-                src="https://images.unsplash.com/photo-1549759594-0d842f402b4d?q=80&w=1898&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src="../../public/locations/10.png"
                 alt="BBQ from unsplash"
                 className="w-full h-full object-cover"
               />
@@ -128,7 +128,7 @@ export default function Footer() {
               </div>
               {/* https://unsplash.com/photos/close-up-photo-of-cooked-food-on-square-white-plate-auIbTAcSH6E */}
               <img
-                src="https://images.unsplash.com/photo-1549759594-0d842f402b4d?q=80&w=1898&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src="../../public/locations/8.png"
                 alt="beef from unsplash"
                 className="w-full h-full object-cover"
               />
