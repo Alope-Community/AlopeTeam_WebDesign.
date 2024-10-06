@@ -1,9 +1,9 @@
 import { useEffect, useRef } from "react";
-import { Title } from "../../../components/text";
-import reviews from "../../../data/reviews.json";
-import CardReviews from "./card";
+import reviews from "../../data/reviews.json";
+import CardReview from "./card";
+import { Title } from "../text";
 
-export default function DetailReviewSection() {
+export default function Review() {
   const scrollRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -46,17 +46,17 @@ export default function DetailReviewSection() {
   }, []);
 
   return (
-    <section className="py-8 px-5 md:px-20 mt-20 rounded">
+    <section className="py-20 px-5 md:px-20 mt-20 rounded">
       <div className="text-center mb-10">
         <Title text={"Testimoni Para pembeli"} />
       </div>
       <div
         ref={scrollRef}
-        className="flex sm:flex-row flex-col space-y-4 sm:space-y-0 sm:space-x-5 overflow-auto h-screen sm:h-96 scrollbar-hide"
+        className="flex sm:flex-row flex-col space-y-4 sm:space-y-0 sm:space-x-5 overflow-auto scrollbar-hide pb-14"
       >
         {reviews.map((review, index) => (
           <div key={index} className="sm:w-1/4 w-full flex-shrink-0">
-            <CardReviews
+            <CardReview
               image={review.image}
               name={review.name}
               purchase={review.payment}
