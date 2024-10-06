@@ -10,7 +10,7 @@ export default function HomeBenefitSection() {
       <div className="flex items-center flex-col lg:flex-row">
         <div className="w-full">
           <Subtitle text="Benefit" />
-          <Title text="Kenapa anda harus beli di kami?" />
+          <Title text="Mengapa Harus Memilih Kami?" />
           <hr className="mt- border-primary w-[100px]" />
           <ul className="space-y-3 mt-6">
             {benefits.map((benefit) => (

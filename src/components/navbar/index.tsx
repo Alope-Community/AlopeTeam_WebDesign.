@@ -28,7 +28,11 @@ export default function Navbar() {
       <nav className="transition duration-500 py-7 px-5 md:px-10 xl:px-20 grid grid-cols-2 xl:grid-cols-5 items-center fixed top-0 left-0 right-0 text-gray-200 z-50">
         <div>
           <p className="text-sm sm:text-xl font-semibold flex items-center gap-2 md:gap-3 whitespace-nowrap">
-            <StoreIcon myClass={"size-5 sm:size-6 text-primary"} />
+            <img
+              src="../../public/logo/logo.svg"
+              alt=""
+              className="w-14 h-14"
+            />
             Cluck N Roll
           </p>
         </div>

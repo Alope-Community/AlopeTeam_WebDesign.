@@ -1,17 +1,17 @@
 [
   {
     "name": "Paket Ayam + Nasi",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem cumque, error ipsum sed id delectus?",
+    "description": "paduan sempurna nasi pulen dan juga ayam crispy yang dipadukan dengan sambal pedas yang menggugah selera.",
     "image": "7.svg"
   },
   {
-    "name": "Ayam Crispy",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem cumque, error ipsum sed id delectus?",
+    "name": "Ayam Bakar",
+    "description": "Dibakar dengan bumbu olesan rahasia yang meresap sempurna menciptakan rasa yang lezat di setiap gigitannya.",
     "image": "6.svg"
   },
   {
     "name": "Ayam Katsu",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem cumque, error ipsum sed id delectus?",
+    "description": "Dibuat dengan dada ayam yang juicy dan nikmat sehingga memberikan tekstur sempurna di setiap gigitan.",
     "image": "11.svg"
   }
 ]

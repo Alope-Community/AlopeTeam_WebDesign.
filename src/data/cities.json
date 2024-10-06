@@ -6,5 +6,13 @@
   {
     "placeholder": "Jakarta",
     "value": "jakarta"
+  },
+  {
+    "placeholder": "Bandung",
+    "value": "bandung"
+  },
+  {
+    "placeholder": "Surabaya",
+    "value": "surabaya"
   }
 ]

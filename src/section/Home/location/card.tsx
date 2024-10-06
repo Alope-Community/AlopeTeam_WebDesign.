@@ -16,7 +16,10 @@ export default function CardLocations({
       <div className="font-bold bg-black/50 flex items-center justify-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-full w-full">
         <div className="text-center">
           <p className="text-gray-100 text-xl">{title}</p>
-          <p className="text-gray-200 text-base font-normal">{subtitle}</p>
+          <p
+            className="text-gray-200 text-base font-normal"
+            dangerouslySetInnerHTML={{ __html: subtitle }}
+          ></p>
 
           <div className="group-hover:inline-block hidden absolute bottom-4 left-1/2 -translate-x-1/2">
             <Button text="View" to="/location" />
