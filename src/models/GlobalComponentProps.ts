@@ -37,22 +37,35 @@ type ListFooterProps = {
   description: string;
 };
 
-type CardMenuProps = {
+type MenuItem = {
   name: string;
   image: string;
-  tag: string;
   ingredients: string;
+  tag: string;
   nutritions: {
-    calories: string,
-    protein: string,
-    total_fat: string,
-    saturated_fat:string,
-    sodium: string,
-    net_carbs: string,
-    sugars: string,
-    dietary_fiber: string,
-    total_carbs: string,
-  }
+    calories: string;
+    protein: string;
+    total_fat: string;
+    saturated_fat: string;
+    sodium: string;
+    net_carbs: string;
+    sugars: string;
+    dietary_fiber: string;
+    total_carbs: string;
+  };
+};
+
+type CardMenuProps = {
+  item: MenuItem;
+  isActive: boolean;
+  onClick: () => void;
+};
+
+type CardReviewProps = {
+  image: string;
+  name: string;
+  purchase: string;
+  review: string;
 }
 
 export type {
@@ -64,4 +77,5 @@ export type {
   HeaderProps,
   ListFooterProps,
   CardFavoriteProps,
+  CardReviewProps
 };
