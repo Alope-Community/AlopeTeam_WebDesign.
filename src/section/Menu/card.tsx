@@ -31,7 +31,7 @@ export default function CardMenu({ item, isActive, onClick }: CardMenuProps) {
 
   return (
     <div
-      className="bg-light-dark w-full md:w-1/3 border rounded-lg shadow-md transition cursor-pointer h-auto"
+      className="bg-light-dark border border-gray-800 shadow-sm shadow-primary/60 rounded-lg transition cursor-pointer h-auto"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
       onClick={onClick}
@@ -50,12 +50,12 @@ export default function CardMenu({ item, isActive, onClick }: CardMenuProps) {
           <p className="text-sm text-gray-200">{item.tag}</p>
         </div>
       ) : (
-        <div className="bg-white p-4 rounded-lg m-5">
-          <h1 className="text-lg font-bold">Nutrition Facts</h1>
-          <h6 className="text-lg mb-2 border-b border-gray-300 pb-2">
+        <div className="bg-dark p-4 rounded-lg m-5">
+          <h1 className="text-xl font-bold text-primary">Nutrition Facts</h1>
+          <h6 className="text-lg mb-2 border-b border-gray-800 pb-2 text-gray-200">
             {item.name}
           </h6>
-          <div className="grid grid-cols-2 gap-2">
+          <div className="grid grid-cols-2 gap-2 text-gray-300">
             <p>Calories</p>
             <p className="text-right font-bold">{item.nutritions.calories}</p>
 
