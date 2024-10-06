@@ -4,9 +4,11 @@ import { useSearchParams } from "react-router-dom";
 import MapPaperIcon from "../../../components/icons/mapPaper";
 import GridIcon from "../../../components/icons/grid";
 import MapLocationSection from "./map";
+import RestaurantCard from "../../Home/restaurant/card";
+import restaurants from "./../../../data/restaurants.json";
 
 export default function LocationMapSection() {
-  const [viewOn, setViewOn] = useState(1);
+  const [viewOn, setViewOn] = useState(2);
 
   const [searchParams] = useSearchParams();
   const lang = searchParams.get("lang") || "en";
@@ -67,10 +69,9 @@ export default function LocationMapSection() {
           id="map"
           className="grid md:grid-cols-2 xl:grid-cols-3 gap-3 xl:gap-5 mt-20 scroll-m-44"
         >
-          ygewfy
-          {/* {restaurants.map((restaurant, index) => (
-      <RestaurantCard key={index} restaurant={restaurant} />
-    ))} */}
+          {restaurants.map((restaurant, index) => (
+            <RestaurantCard key={index} restaurant={restaurant} />
+          ))}
         </div>
       )}
     </>
