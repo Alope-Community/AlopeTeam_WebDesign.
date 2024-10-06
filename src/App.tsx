@@ -5,6 +5,7 @@ import HomeView from "./views/Home";
 import Navbar from "./components/navbar";
 import MenuView from "./views/Menu";
 import LocationView from "./views/Location";
+import Footer from "./components/footer";
 import DetailView from "./views/Detail";
 
 export default function App() {
@@ -17,6 +18,7 @@ export default function App() {
         <Route path="/location" element={<LocationView />} />
         <Route path="/detail" element={<DetailView />} />
       </Routes>
+      <Footer />
     </>
   );
 }
