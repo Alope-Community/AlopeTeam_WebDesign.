@@ -66,7 +66,14 @@ type CardReviewProps = {
   name: string;
   purchase: string;
   review: string;
-}
+};
+
+type HeaderComponentProps = {
+  title: string;
+  subtitle: string;
+  description: string;
+  img: string;
+};
 
 export type {
   ButtonProps,
@@ -77,5 +84,6 @@ export type {
   HeaderProps,
   ListFooterProps,
   CardFavoriteProps,
-  CardReviewProps
+  CardReviewProps,
+  HeaderComponentProps,
 };
