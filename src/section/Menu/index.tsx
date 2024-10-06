@@ -20,7 +20,7 @@ export default function MenuSection() {
         <Subtitle text="Menu Kami" />
         <Title text="Menu Menu Rajanya Ayam" />
       </div>
-      <div className="grid grid-cols-3 gap-5">
+      <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-5">
         {menuData.map((item, index: number) => (
           <CardMenu
             key={index}
