@@ -6,8 +6,13 @@ import HomeBenefitSection from "../section/Home/benefit";
 import HomeHeaderSection from "../section/Home/header";
 import HomeRestaurantSection from "../section/Home/restaurant";
 import QuoteHomeSection from "../section/Home/quote";
+import { useEffect } from "react";
 
 export default function HomeView() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <HomeHeaderSection />
