@@ -1,6 +1,8 @@
-import Header from "../components/header";
 import LocationMapSection from "../section/Location/map";
+//
+import Header from "../components/header";
 import Review from "../components/review";
+import InviteReservation from "../components/inviteReservation";
 
 export default function LocationView() {
   return (
@@ -12,6 +14,7 @@ export default function LocationView() {
       <div className="bg-light-dark">
         <Review />
       </div>
+      <InviteReservation />
     </>
   );
 }

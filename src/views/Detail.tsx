@@ -1,9 +1,7 @@
-import DetailReviewSection from "../section/Detail/Review";
-
 export default function DetailView() {
   return (
     <>
-      <DetailReviewSection />
+      <h1>Test</h1>
     </>
   );
 }
