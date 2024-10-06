@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import reviews from "../../data/reviews.json";
 import CardReview from "./card";
-import { Title } from "../text";
+import { Subtitle, Title } from "../text";
 
 export default function Review() {
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -48,7 +48,8 @@ export default function Review() {
   return (
     <section className="py-20 px-5 md:px-20 mt-20 rounded">
       <div className="text-center mb-10">
-        <Title text={"Testimoni Para pembeli"} />
+        <Subtitle text={"Apa Kata Mereka?"} />
+        <Title text={"Mereka Puas dengan Pelayanan Kami"} />
       </div>
       <div
         ref={scrollRef}
