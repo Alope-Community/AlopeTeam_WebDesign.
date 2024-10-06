@@ -9,9 +9,10 @@ import restaurants from "./../../../data/restaurants.json";
 
 export default function LocationMapSection() {
   const [viewOn, setViewOn] = useState(2);
-
+  const [sliceCount, setSliceCount] = useState(6);
   const [searchParams] = useSearchParams();
   const lang = searchParams.get("lang") || "en";
+
   return (
     <>
       <div className="mt-20 mb-10 flex lg:flex-row flex-col lg:items-center md:items-start items-center lg:justify-between">
@@ -69,9 +70,27 @@ export default function LocationMapSection() {
           id="map"
           className="grid md:grid-cols-2 xl:grid-cols-3 gap-3 xl:gap-5 mt-20 scroll-m-44"
         >
-          {restaurants.map((restaurant, index) => (
+          {restaurants.slice(0, sliceCount).map((restaurant, index) => (
             <RestaurantCard key={index} restaurant={restaurant} />
           ))}
+
+          <div className="md:col-span-2 xl:col-span-3 text-center mt-10">
+            {sliceCount == 6 ? (
+              <button
+                className="py-3 px-7 rounded-md bg-primary hover:bg-primary/80 text-white text-sm inline-flex items-center gap-2 justify-center active:scale-95"
+                onClick={() => setSliceCount(18)}
+              >
+                Lihat Semua Restoran
+              </button>
+            ) : (
+              <button
+                className="py-3 px-7 rounded-md bg-primary hover:bg-primary/80 text-white text-sm inline-flex items-center gap-2 justify-center active:scale-95"
+                onClick={() => setSliceCount(6)}
+              >
+                Lihat Sebagian
+              </button>
+            )}
+          </div>
         </div>
       )}
     </>
