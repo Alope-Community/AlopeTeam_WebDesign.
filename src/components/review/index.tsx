@@ -53,7 +53,7 @@ export default function Review() {
       </div>
       <div
         ref={scrollRef}
-        className="flex sm:flex-row flex-col space-y-4 sm:space-y-0 sm:space-x-5 overflow-auto scrollbar-hide pb-14"
+        className="flex sm:flex-row flex-col space-y-4 sm:space-y-0 sm:space-x-5 overflow-auto scrollbar-hide sm:h-96 pb-14"
       >
         {reviews.map((review, index) => (
           <div key={index} className="sm:w-1/4 w-full flex-shrink-0">
