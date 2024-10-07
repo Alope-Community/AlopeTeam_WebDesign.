@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
-//
 import NavbarAction from "./navbarAction";
 import NavbarLinks from "./navbarLinks";
 import FullScreenNav from "./fullScreenNav";
@@ -26,14 +26,12 @@ export default function Navbar() {
     <>
       <nav className="transition duration-500 py-7 px-5 md:px-10 xl:px-20 grid grid-cols-2 xl:grid-cols-5 items-center fixed top-0 left-0 right-0 text-gray-200 z-50">
         <div>
-          <p className="text-sm sm:text-xl font-semibold flex items-center gap-2 md:gap-3 whitespace-nowrap">
-            <img
-              src="/logo/logo.svg"
-              alt=""
-              className="w-14 h-14"
-            />
-            Cluck N Roll
-          </p>
+          <NavLink to="/">
+            <p className="text-sm sm:text-xl font-semibold flex items-center gap-2 md:gap-3 whitespace-nowrap">
+              <img src="/logo/logo.svg" alt="" className="w-7 h-7 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-14" />
+              Cluck N Roll
+            </p>
+          </NavLink>
         </div>
         <div className="xl:col-span-2 flex items-center justify-end gap-2">
           <NavbarSearch lang={lang} />
