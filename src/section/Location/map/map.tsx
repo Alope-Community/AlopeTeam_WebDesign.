@@ -15,16 +15,16 @@ const containerStyle = {
 };
 
 const center = {
-  lat: -7.0,
-  lng: 110.0,
+  lat: -6.8618433,
+  lng: 107.408613,
 };
 
 // Batas koordinat wilayah Indonesia
 const indonesiaBounds = {
-  north: 1.5,
-  south: -10.5,
+  north: -3.5,
+  south: -8.8,
   west: 105.0,
-  east: 115.5,
+  east: 114.5,
 };
 
 const darkModeStyle = [
@@ -141,7 +141,7 @@ function MapLocationSection() {
             }}
             onClick={() => setSelectedMarker(restaurant)}
             icon={{
-              url: `/restaurants/${restaurant.img}`,
+              url: `/locations/${restaurant.img}`,
               scaledSize: new window.google.maps.Size(40, 40),
               origin: new window.google.maps.Point(0, 0),
               anchor: new window.google.maps.Point(20, 20),
@@ -161,12 +161,12 @@ function MapLocationSection() {
             }}
             onCloseClick={() => setSelectedMarker(null)}
           >
-            <div className="bg-[#0e1317] p-4 rounded text-center">
+            <div className="bg-light-dark p-4 rounded text-center">
               <img
-                src={`/restaurants/${selectedMarker.img}`}
+                src={`/locations/${selectedMarker.img}`}
                 width={200}
                 height={200}
-                className="object-cover rounded-md mx-auto"
+                className="object-cover rounded-md mx-auto max-h-[200px] min-h-[200px] w-full"
               />
               <p className="font-medium mb-2 text-xl text-gray-200 mt-3">
                 {selectedMarker.name}
@@ -179,7 +179,7 @@ function MapLocationSection() {
                 title="Location Detail"
                 aria-label="Location Detail"
                 type="button"
-                className="px-7 py-2 rounded-md text-white  border-2 border-[#bc8b57]/80 bg-[#bc8b57]/80 hover:bg-[#bc8b57] hover:text-white font-medium"
+                className="px-7 py-2 rounded-md text-white border-2 border-primary/80 bg-primary/80 hover:bg-primary hover:text-white font-medium"
               >
                 Detail Lokasi
               </button>

@@ -62,7 +62,10 @@ export default function LocationMapSection() {
       </div>
 
       {viewOn == 1 ? (
-        <div className="overflow-hidden rounded border-2 border-primary">
+        <div
+          id="map"
+          className="overflow-hidden rounded border-2 border-primary"
+        >
           <MapLocationSection />
         </div>
       ) : (
