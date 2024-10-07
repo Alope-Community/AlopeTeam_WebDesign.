@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 
 //
-import StoreIcon from "../icons/store";
 import NavbarAction from "./navbarAction";
 import NavbarLinks from "./navbarLinks";
 import FullScreenNav from "./fullScreenNav";
