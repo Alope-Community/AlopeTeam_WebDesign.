@@ -51,6 +51,18 @@ export default function NavbarLinks({ lang }: { lang: string }) {
         </li>
         <li>
           <NavLink
+            to="/about"
+            className={({ isActive }) =>
+              `${baseClass} ${addedHoverClass} ${
+                isActive ? addedActiveClass : ""
+              }`
+            }
+          >
+            About
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
             to="/chef"
             className={({ isActive }) =>
               `${baseClass} ${addedHoverClass} ${

@@ -7,6 +7,7 @@ import MenuView from "./views/Menu";
 import LocationView from "./views/Location";
 import Footer from "./components/footer";
 import DetailView from "./views/Detail";
+import AboutView from "./views/About";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
         <Route path="/" element={<HomeView />} />
         <Route path="/menu" element={<MenuView />} />
         <Route path="/location" element={<LocationView />} />
+        <Route path="/about" element={<AboutView />} />
         <Route path="/detail" element={<DetailView />} />
       </Routes>
       <Footer />
