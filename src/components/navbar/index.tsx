@@ -6,6 +6,7 @@ import NavbarAction from "./navbarAction";
 import NavbarLinks from "./navbarLinks";
 import FullScreenNav from "./fullScreenNav";
 import BarsIcon from "../icons/bars";
+import CloseIcon from "../icons/close";
 import NavbarSearch from "./navbarSearch";
 
 export default function Navbar() {
@@ -28,7 +29,11 @@ export default function Navbar() {
         <div>
           <NavLink to="/">
             <p className="text-sm sm:text-xl font-semibold flex items-center gap-2 md:gap-3 whitespace-nowrap">
-              <img src="/logo/logo.svg" alt="" className="w-7 h-7 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-14" />
+              <img
+                src="/logo/logo.svg"
+                alt=""
+                className="w-7 h-7 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-14"
+              />
               Cluck N Roll
             </p>
           </NavLink>
@@ -45,7 +50,11 @@ export default function Navbar() {
                 setShowFullScreenNav(!showFullScreenNav);
               }}
             >
-              <BarsIcon myClass="size-5 sm:size-6" />
+              {showFullScreenNav ? (
+                <CloseIcon myClass="size-5 sm:size-6" />
+              ) : (
+                <BarsIcon myClass="size-5 sm:size-6" />
+              )}
             </button>
           </div>
         </div>
