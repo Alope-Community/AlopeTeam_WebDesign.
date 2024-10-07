@@ -28,7 +28,7 @@ export default function Navbar() {
         <div>
           <p className="text-sm sm:text-xl font-semibold flex items-center gap-2 md:gap-3 whitespace-nowrap">
             <img
-              src="../../public/logo/logo.svg"
+              src="/logo/logo.svg"
               alt=""
               className="w-14 h-14"
             />
