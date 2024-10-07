@@ -15,13 +15,9 @@ export default function LocationView() {
       <Header
         subtitle="Our Restaurant"
         title="Nikmati Makan di Restoran Terbaik"
-        description="
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-          ipsum quibusdam perferendis corporis omnis vero accusantium numquam
-          quasi sit? Excepturi maiores laudantium molestias illo error dicta
-          officiis dolor soluta eum?
+        description="Rasakan pengalaman makan yang berbeda di restoran kami, dengan aneka pilihan masakan ayam berkualitas, suasana nyaman, dan pelayanan ramah. Cocok untuk dinikmati bersama keluarga atau teman.
         "
-        img="https://images.unsplash.com/photo-1497644083578-611b798c60f3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        img="/header/header1.jpg"
       />
       <main className="xl:px-20 md:px-10 px-5">
         <LocationMapSection />

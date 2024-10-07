@@ -17,7 +17,7 @@ export default function QuoteHomeSection({ lang }: { lang?: string }) {
         </div>
         <div className="h-full overflow-hidden w-1/2 md:block hidden">
           <img
-            src="../../public/quetes.jpg"
+            src="/header/quetes.jpg"
             alt="pasta from unsplash"
             className="w-full h-full object-cover md:object-pastaMD xl:object-pastaXL"
             style={{

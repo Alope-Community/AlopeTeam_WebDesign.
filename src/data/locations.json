@@ -2,16 +2,16 @@
   {
     "title": "Jakarta",
     "subtitle": "6 Restoran yang tersebar <br> di Ibu Kota.",
-    "image": "../../public/locations/location1.jpg"
+    "image": "public/locations/location1.jpg"
   },
   {
     "title": "Bandung",
     "subtitle": "5 Restoran yang tersebar <br> di Kota Kembang",
-    "image": "../../public/locations/location2.jpg"
+    "image": "public/locations/location2.jpg"
   },
   {
     "title": "Surabaya",
     "subtitle": "3 Restoran yang tersebar <br> di Kota Pahlawan",
-    "image": "../../public/locations/location3.jpg"
+    "image": "public/locations/location3.jpg"
   }
 ]

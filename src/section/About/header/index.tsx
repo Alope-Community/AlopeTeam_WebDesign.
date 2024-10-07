@@ -7,13 +7,14 @@ export default function HeaderAboutSection() {
             About Us
           </p>
           <h1 className="text-gray-100 text-3xl sm:text-5xl xl:text-6xl font-bold leading-tight text-center md:text-left">
-            Mouthwateringly Delicious Food
-            <br /> On Low Budget & Calories
+           Makanan Lezat Dan <br />
+           Harga Yang Ekonomis
           </h1>
           <p className="md:text-lg text-base text-gray-300 mt-4 text-center md:text-left">
-            Calories conscious or not, we have food choices that make you drool
-            and keep you healthy simultaneously. We create vegan dishes and cool
-            non-alcoholic drinks too.
+            Cluck n Roll menyajikan aneka olahan ayam berkualitas dengan cita
+            rasa khas. Kami berkomitmen memberikan pengalaman kuliner terbaik,
+            dengan suasana nyaman dan pelayanan ramah, cocok untuk dinikmati
+            bersama keluarga dan teman.
           </p>
 
           <div className="flex flex-wrap justify-center md:justify-start gap-10 mt-8 text-primary">
