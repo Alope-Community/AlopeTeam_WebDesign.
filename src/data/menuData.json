@@ -1,7 +1,7 @@
 [
   {
     "name": "Ayam Geprek",
-    "image": "7.svg",
+    "image": "1.svg",
     "ingredients": "Roasted Chicken, black beans, salsa and cheddaar",
     "tag": "530 cals, 39 protein, 55g net carbs",
     "nutritions": {
@@ -18,7 +18,7 @@
   },
   {
     "name": "Ayam Goreng Kremes",
-    "image": "7.svg",
+    "image": "2.svg",
     "ingredients": "Roasted Chicken, black beans, salsa and cheddaar",
     "tag": "530 cals, 39 protein, 55g net carbs",
     "nutritions": {
@@ -35,7 +35,7 @@
   },
   {
     "name": "Ayam Bakar",
-    "image": "7.svg",
+    "image": "3.svg",
     "ingredients": "Roasted Chicken, black beans, salsa and cheddaar",
     "tag": "530 cals, 39 protein, 55g net carbs",
     "nutritions": {
@@ -52,7 +52,7 @@
   },
   {
     "name": "Ayam Penyet",
-    "image": "7.svg",
+    "image": "4.svg",
     "ingredients": "Roasted Chicken, black beans, salsa and cheddaar",
     "tag": "530 cals, 39 protein, 55g net carbs",
     "nutritions": {
@@ -69,7 +69,7 @@
   },
   {
     "name": "Ayam Pop",
-    "image": "7.svg",
+    "image": "5.svg",
     "ingredients": "Roasted Chicken, black beans, salsa and cheddaar",
     "tag": "530 cals, 39 protein, 55g net carbs",
     "nutritions": {
@@ -86,7 +86,7 @@
   },
   {
     "name": "Ayam Serundeng",
-    "image": "7.svg",
+    "image": "6.svg",
     "ingredients": "Roasted Chicken, black beans, salsa and cheddaar",
     "tag": "530 cals, 39 protein, 55g net carbs",
     "nutritions": {

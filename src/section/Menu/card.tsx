@@ -76,7 +76,7 @@ export default function CardMenu({ item, isActive, onClick }: CardMenuProps) {
             <p>Net Carbs</p>
             <p className="text-right font-bold">{item.nutritions.net_carbs}</p>
 
-            <p className="text-gray-500">Sugars</p>
+            <p>Sugars</p>
             <p className="text-right font-bold">{item.nutritions.sugars}</p>
 
             <p>Dietary Fiber</p>
