@@ -1,9 +1,7 @@
-import React from "react";
-
 export default function DetailMenuSection() {
   return (
     <section className="grid grid-cols-3 pt-28 gap-16 px-20">
-      <div className="col-span-2 min-h-screen text-gray-100">
+      <div className="col-span-2 text-gray-100">
         <p className="md:text-base text-[13px] mb-10 leading-8">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
           dolore laborum eius ratione blanditiis sed vero ducimus nostrum

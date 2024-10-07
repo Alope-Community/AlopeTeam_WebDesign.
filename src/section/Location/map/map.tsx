@@ -8,6 +8,7 @@ import {
 
 import restaurants from "../../../data/restaurants.json";
 import { Restaurant } from "../../../models/Resturant";
+import { Link } from "react-router-dom";
 
 const containerStyle = {
   width: "100%",
@@ -175,14 +176,15 @@ function MapLocationSection() {
                 {selectedMarker.description}
               </p>
               <br />
-              <button
+              <Link
+                to={"/detail"}
                 title="Location Detail"
                 aria-label="Location Detail"
                 type="button"
                 className="px-7 py-2 rounded-md text-white border-2 border-primary/80 bg-primary/80 hover:bg-primary hover:text-white font-medium"
               >
                 Detail Lokasi
-              </button>
+              </Link>
               <br />
               <br />
             </div>

@@ -1,4 +1,5 @@
 // icons
+import { Link } from "react-router-dom";
 import { ChevronRight } from "../../../components/icons/chevron";
 import StarIcon from "../../../components/icons/star";
 
@@ -39,14 +40,15 @@ export default function RestaurantCard({
             {formatToRupiah(restaurant.prices.min)} -{" "}
             {formatToRupiah(restaurant.prices.max)}
           </p>
-          <button
+          <Link
+            to={"/detail"}
             title="See Restaurant"
             aria-label="See Restaurant"
             type="button"
             className="absolute right-5 top-1/2 -translate-y-1/2 bg-primary hover:bg-primary/80 p-3 rounded-md"
           >
             <ChevronRight myClass="size-4 text-white" />
-          </button>
+          </Link>
         </div>
       </div>
     </>

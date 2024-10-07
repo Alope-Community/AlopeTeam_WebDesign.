@@ -61,7 +61,7 @@ export default function NavbarLinks({ lang }: { lang: string }) {
             About
           </NavLink>
         </li>
-        <li>
+        {/* <li>
           <NavLink
             to="/chef"
             className={({ isActive }) =>
@@ -72,7 +72,7 @@ export default function NavbarLinks({ lang }: { lang: string }) {
           >
             {lang == "en" ? "Chef" : "Koki"}
           </NavLink>
-        </li>
+        </li> */}
       </ul>
     </div>
   );
