@@ -4,7 +4,7 @@ import AccordionAbout from "./accordion";
 
 export default function FAQAboutSection() {
   return (
-    <section className="py-8 mx-5 md:mx-20 mt-16 grid grid-cols-3 gap-10">
+    <section className="grid grid-cols-3 gap-10 mt-36 mb-36 xl:px-20 md:px-10 px-5">
       <div>
         <Subtitle text="FAQ" />
         <Title text="Frequently Asked Question" />
