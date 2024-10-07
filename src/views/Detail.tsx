@@ -15,12 +15,9 @@ export default function DetailView() {
         subtitle="Lokasi Terbaik"
         title="Prime Chicken in Surabaya"
         description="
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-          ipsum quibusdam perferendis corporis omnis vero accusantium numquam
-          quasi sit? Excepturi maiores laudantium molestias illo error dicta
-          officiis dolor soluta eum?
+          Cabang Prime Chicken di Surabaya merupakan yang terbaik, menawarkan berbagai hidangan ayam lezat dengan cita rasa autentik dan pelayanan yang ramah, menjadikannya tempat ideal untuk bersantap bersama keluarga dan teman.
         "
-        img="https://images.unsplash.com/photo-1484659619207-9165d119dafe?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        img="/header/header3.jpg"
       />
       <DetailMenuSection />
 

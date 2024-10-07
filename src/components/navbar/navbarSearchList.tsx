@@ -18,7 +18,7 @@ export default function NavbarSearchList({
         <img
           src={img}
           alt=""
-          className="rounded h-[80px] w-full object-cover"
+          className="rounded h-[95px] w-full object-cover"
           width={"auto"}
           height={"auto"}
         />

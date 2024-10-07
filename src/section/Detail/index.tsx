@@ -33,7 +33,7 @@ export default function DetailMenuSection() {
       <div>
         <div className="bg-light-dark p-8 md:p-10 rounded">
           <img
-            src="/locations/resto1.png"
+            src="/profile/1.svg"
             alt=""
             className="w-16 h-16 md:w-20 md:h-20 rounded-full mx-auto md:mx-0"
           />
