@@ -46,17 +46,17 @@ export default function Review() {
   }, []);
 
   return (
-    <section className="py-20 px-5 md:px-20 mt-20 rounded">
+    <section className="py-5 px-5 md:px-20 mt-20 m-5 rounded">
       <div className="text-center mb-10">
         <Subtitle text={"Apa Kata Mereka?"} />
         <Title text={"Mereka Puas dengan Pelayanan Kami"} />
       </div>
       <div
         ref={scrollRef}
-        className="flex sm:flex-row flex-col space-y-4 sm:space-y-0 sm:space-x-5 overflow-auto scrollbar-hide pb-14"
+        className="flex sm:flex-row flex-col space-y-4 sm:space-y-0 sm:space-x-5 overflow-auto scrollbar-hide h-[1200px] sm:h-96 pb-14"
       >
         {reviews.map((review, index) => (
-          <div key={index} className="sm:w-1/4 w-full flex-shrink-0">
+          <div key={index} className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 flex-shrink-0">
             <CardReview
               image={review.image}
               name={review.name}

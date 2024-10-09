@@ -52,10 +52,10 @@ export default function FullScreenNav({
           <li className="mb-4">
             <Link
               onClick={() => toggleNavScreen()}
-              to="/chef"
+              to="/about"
               className="text-xl font-semibold text-white hover:text-primary"
             >
-              Chef
+              About
             </Link>
           </li>
         </ul>

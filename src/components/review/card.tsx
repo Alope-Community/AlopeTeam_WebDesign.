@@ -2,7 +2,7 @@ import { CardReviewProps } from "../../models/GlobalComponentProps";
 
 export default function CardReview({ image, name, review }: CardReviewProps) {
   return (
-    <div className="shadow-primary/40 shadow-sm bg-dark px-5 py-8 flex flex-col items-center rounded-md text-gray-200">
+    <div className="shadow-primary/40 shadow-sm bg-dark px-5 py-8 flex flex-col items-center rounded-md text-gray-200 h-64">
       <img
         src={`/profile/${image}`}
         alt={`${name}'s picture`}
