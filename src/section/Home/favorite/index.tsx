@@ -21,7 +21,7 @@ export default function HomeFavoriteSection() {
         ))}
       </div>
       <div className="text-center">
-        <Button text="View Full Menu" to="/" />
+        <Button text="View Full Menu" to="/menu" />
       </div>
     </section>
   );
