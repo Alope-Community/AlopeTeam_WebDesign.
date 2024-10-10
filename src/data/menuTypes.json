@@ -1,17 +1,35 @@
 [
   {
-    "name": "crispy",
-    "description": "Digoreng dengan crispy sehingga menghasilkan tekstur yang menggoda.",
+    "name": {
+      "id": "Crispi",
+      "en": "Crispy"
+    },
+    "description": {
+      "id": "Digoreng dengan crispy sehingga menghasilkan tekstur yang menggoda.",
+      "en": "Fried crispy to produce a tempting texture."
+    },
     "image": "7.svg"
   },
   {
-    "name": "Bakar",
-    "description": "Dibakar dengan bumbu olesan rahasia yang meresap sempurna.",
+    "name": {
+      "id": "Bakar",
+      "en": "Burn"
+    },
+    "description": {
+      "id": "Dibakar dengan bumbu olesan rahasia yang meresap sempurna.",
+      "en": "Baked with a secret spice rub that is perfectly absorbed."
+    },
     "image": "6.svg"
   },
   {
-    "name": "Penyet",
-    "description": "Digoreng garing tetapi masih Juicy dan gurih disajikan dengan sambal.",
+    "name": {
+      "id": "Penyet",
+      "en": "Penyet"
+    },
+    "description": {
+      "id": "Digoreng garing tetapi masih Juicy dan gurih disajikan dengan sambal.",
+      "en": "Fried crispy but still juicy and tasty served with chili sauce."
+    },
     "image": "9.svg"
   }
 ]

@@ -1,17 +1,35 @@
 [
   {
-    "name": "Paket Ayam + Nasi",
-    "description": "paduan sempurna nasi pulen dan juga ayam crispy yang dipadukan dengan sambal pedas yang menggugah selera.",
+    "name": {
+      "id": "Paket Ayam & Nasi",
+      "en": "Chicken & Rice"
+    },
+    "description": {
+      "id": "Paduan sempurna nasi pulen dan juga ayam crispy yang dipadukan dengan sambal pedas yang menggugah selera.",
+      "en": "The perfect combination of fluffy rice and crispy chicken combined with appetizing spicy chili sauce."
+    },
     "image": "7.svg"
   },
   {
-    "name": "Ayam Bakar",
-    "description": "Dibakar dengan bumbu olesan rahasia yang meresap sempurna menciptakan rasa yang lezat di setiap gigitannya.",
+    "name": {
+      "id": "Ayam Bakar",
+      "en": "Burn Chicken"
+    },
+    "description": {
+      "id": "Dibakar dengan bumbu olesan rahasia yang meresap sempurna menciptakan rasa yang lezat di setiap gigitannya.",
+      "en": "Grilled with a secret rub that is perfectly absorbed, creating a delicious taste in every bite."
+    },
     "image": "6.svg"
   },
   {
-    "name": "Ayam Katsu",
-    "description": "Dibuat dengan dada ayam yang juicy dan nikmat sehingga memberikan tekstur sempurna di setiap gigitan.",
+    "name": {
+      "id": "Ayam Katsu",
+      "en": "Chicken Katsu"
+    },
+    "description": {
+      "id": "Dibuat dengan dada ayam yang juicy dan nikmat sehingga memberikan tekstur sempurna di setiap gigitan.",
+      "en": "Made with juicy and delicious chicken breast which provides the perfect texture in every bite."
+    },
     "image": "11.svg"
   }
 ]

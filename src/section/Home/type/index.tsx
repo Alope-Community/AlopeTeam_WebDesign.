@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import menuTypes from "../../../data/menuTypes.json";
 import ListType from "./list";
 
-export default function HomeTypeSection() {
+export default function HomeTypeSection({ lang }: { lang?: string }) {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -21,19 +21,23 @@ export default function HomeTypeSection() {
         <img
           className="h-[400px] xl:h-[500px] w-full rounded"
           src={`/menus/${menuTypes[currentIndex].image}`}
-          alt={menuTypes[currentIndex].name}
+          alt={menuTypes[currentIndex].name.en}
         />
         <div className="bg-primary absolute left-1/2 -translate-x-1/2 xl:-translate-x-0 xl:-left-5 -bottom-5 w-[400px] rounded py-5 px-3">
-          <h1 className="text-2xl font-medium text-gray-100">
-            {menuTypes[currentIndex].name}
+          <h1 className="text-2xl font-medium text-gray-100 uppercase">
+            {lang == "en"
+              ? menuTypes[currentIndex].name.en
+              : menuTypes[currentIndex].name.id}
           </h1>
           <p className="text-gray-200 text-sm mt-2">
-            {menuTypes[currentIndex].description}
+            {lang == "en"
+              ? menuTypes[currentIndex].description.en
+              : menuTypes[currentIndex].description.id}
           </p>
         </div>
       </div>
 
-      <ListType />
+      <ListType lang={lang} />
     </section>
   );
 }

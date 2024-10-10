@@ -1,0 +1,60 @@
+{
+  "home": {
+    "header": {
+      "title": {
+        "en": "Where Chicken is Served Deliciously",
+        "id": "Dimana Ayam Disajikan dengan Nikmat"
+      },
+      "description": {
+        "en": "Experience an unforgettable culinary experience with the most delicious chicken. Our premium quality chicken meat is prepared with selected spices. Enjoy a variety of chicken menus with our unique creations, from crispy fried chicken to grilled chicken with spices.",
+        "id": "Rasakan pengalaman kuliner yang tak terlupakan dengan ayam paling lezat. Daging ayam berkualitas premium kami diolah dengan bumbu-bumbu pilihan. Nikmati beragam menu ayam dengan kreasi unik kami, mulai dari ayam goreng krispi hingga ayam bakar bumbu rempah"
+      }
+    },
+    "benefit": {
+      "title": {
+        "id": "Mengapa Harus Memilih Kami?",
+        "en": "Why Choose Us?"
+      }
+    },
+    "favorite": {
+      "title": {
+        "id": "Menu dengan Ragam Bumbu Khas",
+        "en": "Menu with a variety of special spices"
+      },
+      "subtitle": {
+        "id": "Menu Favorit",
+        "en": "Favorite Menu"
+      }
+    },
+    "type": {
+      "title": {
+        "id": "ANEKA OLAHAN AYAM",
+        "en": "VARIOUS PROCESSED CHICKEN"
+      }
+    },
+    "location": {
+      "title": {
+        "id": "CABANG",
+        "en": "BRANCH"
+      },
+      "description": {
+        "id": "Kami memiliki berbagai cabang di kota-kota besar yang siap melayani Anda dengan aneka masakan ayam lezat di setiap lokasinya.",
+        "en": "We have various branches in big cities ready to serve You with a variety of delicious chicken dishes at each location."
+      }
+    },
+    "restaurant": {
+      "title": {
+        "id": "Restoran di Dekat Tempatmu",
+        "en": "Restaurants Near You"
+      },
+      "subtitle": {
+        "id": "Restoran di Tiap Kota",
+        "en": "Restaurants in Every City"
+      }
+    },
+    "quote": {
+      "id": "Terima kasih telah mengunjungi Cluck N Roll Kami berkomitmen untuk selalu menyajikan hidangan berkualitas tinggi yang memberikan pengalaman kuliner tak terlupakan dengan menu yang beragam dan pilihan yang menggugah selera, kami berharap dapat menjangkau hati para pelanggan baik di dalam negeri maupun internasional.",
+      "en": "Thank you for visiting Cluck N Roll. We are committed to always serving high quality dishes that provide an unforgettable culinary experience with a diverse menu and mouth-watering choices, we hope to reach the hearts of customers both domestically and internationally."
+    }
+  }
+}

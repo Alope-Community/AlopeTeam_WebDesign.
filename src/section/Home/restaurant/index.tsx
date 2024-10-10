@@ -10,6 +10,7 @@ import RestaurantCard from "./card";
 // data
 import restaurants from "../../../data/restaurants.json";
 import cities from "../../../data/cities.json";
+import langContent from "../../../data/lang.json";
 
 // icon
 import MapIcon from "../../../components/icons/map";
@@ -26,14 +27,16 @@ export default function HomeRestaurantSection({ lang }: { lang?: string }) {
         <div>
           <Subtitle
             text={
-              lang == "en" ? "Restaurant Based By City" : "Restoran di Kota"
+              lang == "en"
+                ? langContent.home.restaurant.subtitle.en
+                : langContent.home.restaurant.subtitle.id
             }
           />
           <Title
             text={
               lang == "en"
-                ? "Restaurant Near You"
-                : "Restoran di Dekat Tempatmu"
+                ? langContent.home.restaurant.title.en
+                : langContent.home.restaurant.title.en
             }
           />
         </div>

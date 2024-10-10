@@ -1,9 +1,14 @@
+import { Link, useSearchParams } from "react-router-dom";
+//
 import { Title } from "../text";
 import ListContact from "./list";
-
+//
 import contact from "../../data/contact.json";
 
 export default function Footer() {
+  const [searchParams] = useSearchParams();
+  const lang = searchParams.get("lang") || "en";
+
   return (
     <footer className="bg-light-dark px-5 md:px-10 xl:px-20 pt-10 pb-5 mt-20">
       <div className="md:grid grid-cols-2 xl:grid-cols-5 gap-5">
@@ -11,14 +16,52 @@ export default function Footer() {
           <Title text="ClucknRoll" />
           <p className="mt-5 text-sm text-gray-200">
             Kami menyajikan berbagai masakan ayam yang berkualitas
-            <br /> dengan rasa autentik dan bahan-bahan segar yang <br /> selalu terjamin,
-            siap memanjakan lidah Anda.
+            <br /> dengan rasa autentik dan bahan-bahan segar yang <br /> selalu
+            terjamin, siap memanjakan lidah Anda.
           </p>
 
           <p className="text-gray-200 mt-5">
             <span className="text-primary font-medium">Working Hour</span>:
             08:00 AM - 17:00 PM
           </p>
+
+          <div className="mt-7 bg-[#0e1317] px-5 py-3 rounded inline-block">
+            <p className="text-white mb-3 text-sm">Switch Language</p>
+            <div className="flex gap-4 items-center">
+              <Link
+                to={"?lang=en"}
+                className={
+                  lang == "en" ? "border-4 border-primary rounded-full" : ""
+                }
+                onClick={() => {
+                  window.scrollTo(0, 0);
+                }}
+              >
+                <img
+                  src="/logo/us.svg"
+                  alt="US flag img from flat icon"
+                  width={35}
+                  height={35}
+                />
+              </Link>
+              <Link
+                to={"?lang=id"}
+                className={
+                  lang == "id" ? "border-4 border-primary rounded-full" : ""
+                }
+                onClick={() => {
+                  window.scrollTo(0, 0);
+                }}
+              >
+                <img
+                  src="/logo/indonesia.svg"
+                  alt="Indonesia flag img from flat icon"
+                  width={35}
+                  height={35}
+                />
+              </Link>
+            </div>
+          </div>
         </div>
         <div className="text-gray-100 mb-10">
           <h4 className="font-semibold text-xl mb-4">Contact us</h4>

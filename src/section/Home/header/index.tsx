@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 
+import langContent from "./../../../data/lang.json";
+
 export default function HomeHeaderSection({ lang }: { lang?: string }) {
   return (
     <>
@@ -11,13 +13,13 @@ export default function HomeHeaderSection({ lang }: { lang?: string }) {
           </h1>
           <h2 className="text-gray-100 text-3xl md:text-5xl font-bold mt-5">
             {lang == "en"
-              ? "Where Chicken is Served with Enjoyment"
-              : "Dimana Ayam Disajikan dengan Nikmat"}
+              ? langContent.home.header.title.en
+              : langContent.home.header.title.id}
           </h2>
           <p className="text-gray-200 mt-5 text-sm md:text-base">
             {lang == "en"
-              ? "Experience an unforgettable culinary experience with the most delicious chicken. Our premium quality chicken meat is prepared with selected spices. Enjoy a variety of chicken menus with our unique creations, from crispy fried chicken to grilled chicken with spices."
-              : "Rasakan pengalaman kuliner yang tak terlupakan dengan ayam paling lezat. Daging ayam berkualitas premium kami diolah dengan bumbu-bumbu pilihan. Nikmati beragam menu ayam dengan kreasi unik kami, mulai dari ayam goreng krispi hingga ayam bakar bumbu rempah."}
+              ? langContent.home.header.description.en
+              : langContent.home.header.description.id}
           </p>
 
           <div className="mt-10 inline-flex gap-5">

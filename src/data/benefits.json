@@ -1,14 +1,32 @@
 [
   {
-    "title": "Kualitas Ayam Dan Rasa Yang Premium",
-    "subtitle": "Setiap gigitan ayam kami adalah perpaduan sempurna antara daging berkualitas premium dan bumbu rahasia yang menggugah selera."
+    "title": {
+      "id": "Kualitas Ayam Dan Rasa Yang Premium",
+      "en": "Premium Chicken Quality and Taste"
+    },
+    "subtitle": {
+      "id": "Setiap gigitan ayam kami adalah perpaduan sempurna antara daging berkualitas premium dan bumbu rahasia yang menggugah selera.",
+      "en": "Every bite of our chicken is the perfect blend of premium quality meat and mouth-watering secret spices."
+    }
   },
   {
-    "title": "Harga Yang Terjangkau",
-    "subtitle": "Nikmati kelezatan ayam berkualitas tanpa menguras kantong. Harga kami sangat terjangkau."
+    "title": {
+      "id": "Harga Yang Terjangkau",
+      "en": "An affordable price"
+    },
+    "subtitle": {
+      "id": "Nikmati kelezatan ayam berkualitas tanpa menguras kantong. Harga kami sangat terjangkau.",
+      "en": "Enjoy delicious quality chicken without breaking the bank. Our prices are very affordable."
+    }
   },
   {
-    "title": "Pengalaman Kuliner Yang Tak Terlupakan",
-    "subtitle": "Suasana nyaman dengan hidangan istimewa yang memanjakan lidah, menciptakan pengalaman makan tak terlupakan untuk Anda dan orang tersayang."
+    "title": {
+      "id": "Pengalaman Kuliner Yang Tak Terlupakan",
+      "en": "Unforgettable Culinary Experience"
+    },
+    "subtitle": {
+      "id": "Suasana nyaman dengan hidangan istimewa yang memanjakan lidah, menciptakan pengalaman makan tak terlupakan untuk Anda dan orang tersayang.",
+      "en": "A comfortable atmosphere with special dishes that pamper your taste buds, creating an unforgettable dining experience for you and your loved ones."
+    }
   }
 ]

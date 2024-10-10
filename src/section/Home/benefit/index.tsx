@@ -4,14 +4,22 @@ import benefitCards from "../../../data/benefitCards.json";
 import benefits from "../../../data/benefits.json";
 import CardBenefit from "./card";
 
-export default function HomeBenefitSection() {
+import langContent from "./../../../data/lang.json";
+
+export default function HomeBenefitSection({ lang }: { lang?: string }) {
   return (
     <section className="py-8 mx-5 md:mx-20 mt-20 flex items-center">
       <div className="flex items-center flex-col lg:flex-row">
         <div className="w-full">
           <Subtitle text="Benefit" />
-          <Title text="Mengapa Harus Memilih Kami?" />
-          <hr className="mt- border-primary w-[100px]" />
+          <Title
+            text={
+              lang == "en"
+                ? langContent.home.benefit.title.en
+                : langContent.home.benefit.title.id
+            }
+          />
+          {/* <hr className="mt- border-primary w-[100px]" /> */}
           <ul className="space-y-3 mt-6">
             {benefits.map((benefit) => (
               <li className="mb-5">
@@ -20,11 +28,13 @@ export default function HomeBenefitSection() {
                     <StarIcon myClass="size-5 text-yellow-400" />
                   </span>
                   <p className="text-gray-200 font-medium text-xl">
-                    {benefit.title}
+                    {lang == "en" ? benefit.title.en : benefit.title.id}
                   </p>
                 </div>
                 <div className="pl-7 mt-2">
-                  <p className="text-gray-300 text-sm">{benefit.subtitle}</p>
+                  <p className="text-gray-300 text-sm">
+                    {lang == "en" ? benefit.subtitle.en : benefit.subtitle.id}
+                  </p>
                 </div>
               </li>
             ))}
@@ -32,7 +42,11 @@ export default function HomeBenefitSection() {
         </div>
         <div className="w-full flex flex-wrap gap-3 justify-center mt-10 lg:mt-0">
           {benefitCards.map((card, index) => (
-            <CardBenefit key={index} title={card.title} image={card.image} />
+            <CardBenefit
+              key={index}
+              title={lang == "en" ? card.title.en : card.title.id}
+              image={card.image}
+            />
           ))}
         </div>
       </div>

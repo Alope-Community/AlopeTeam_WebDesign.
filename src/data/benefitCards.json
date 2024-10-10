@@ -1,18 +1,30 @@
 [
   {
-    "title": "Paket Ayam + Nasi",
+    "title": {
+      "id": "Paket Ayam & Nasi",
+      "en": "Chicken & Rice Package"
+    },
     "image": "7.svg"
   },
   {
-    "title": "Ayam Crispy",
+    "title": {
+      "id": "Ayam Crispi",
+      "en": "Chicken Crispy"
+    },
     "image": "6.svg"
   },
   {
-    "title": "Ayam Katsu",
+    "title": {
+      "id": "Ayam Katsu",
+      "en": "CHicken Katsu"
+    },
     "image": "11.svg"
   },
   {
-    "title": "Ayam Geprek",
+    "title": {
+      "id": "Ayam Geprek",
+      "en": "Chicken Geprek"
+    },
     "image": "4.svg"
   }
 ]

@@ -10,7 +10,7 @@ type TextProps = {
 
 type CardLocationProps = {
   title: string;
-  subtitle: string;
+  subtitle?: string;
   image: string;
 };
 
