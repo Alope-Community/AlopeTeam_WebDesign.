@@ -13,7 +13,7 @@ export default function HomeLocationSection({ lang }: { lang?: string }) {
             <hr className="flex-grow border-2 border-primary mx-2" />
             <div className="flex flex-col items-center">
               <img
-                src="../../public/logo/logo.svg"
+                src="/public/logo/logo.svg"
                 alt=""
                 className="w-14 h-14"
               />

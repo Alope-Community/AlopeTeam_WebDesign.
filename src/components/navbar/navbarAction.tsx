@@ -10,7 +10,6 @@ export default function NavbarAction({
 }) {
   return (
     <div className="hidden md:flex gap-2 justify-end">
-      {/* <NavbarSearch lang={lang} /> */}
       <Link
         to={"/reservation"}
         className="hidden xl:inline-block px-5 py-3 rounded-md text-white border-2 border-primary bg-primary hover:opacity-90 hover:text-white font-medium"

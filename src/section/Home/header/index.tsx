@@ -6,7 +6,7 @@ export default function HomeHeaderSection({ lang }: { lang?: string }) {
   return (
     <>
       {/* img header from unsplash */}
-      <header className="h-screen bg-[url('../../../public/hero1.jpg')] bg-cover relative after:absolute after:inset-0 after:bg-gradient-to-t from-[#0e1317] to to-[#0e1317]/50 flex items-center justify-center">
+      <header className="h-screen bg-[url('/public/hero1.jpg')] bg-cover relative after:absolute after:inset-0 after:bg-gradient-to-t from-[#0e1317] to to-[#0e1317]/50 flex items-center justify-center">
         <div className="w-10/12 lg:w-2/3 text-center z-10 relative">
           <h1 className="text-primary font-bold text-xl md:text-2xl">
             Cluck N Roll

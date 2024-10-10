@@ -1,17 +1,17 @@
 [
   {
-    "title": "Pizza",
-    "img": "pizza.jpg",
-    "description": "Offering a variety of delicious pizzas"
+    "title": "Ayam Crispy",
+    "img": "12.jpg",
+    "description": "Digoreng Garing Dengan Cita Rasa Gurih Dan Lezat"
   },
   {
-    "title": "Burger",
-    "img": "burger.jpg",
-    "description": "Offering a variety of delicious pizzas"
+    "title": "Ayam Bakar",
+    "img": "13.jpg",
+    "description": "Dibakar Dengan Bumbu Rahasia Hingga Meresap"
   },
   {
-    "title": "BBQ",
-    "img": "bbq.jpg",
-    "description": "Offering a variety of delicious pizzas"
+    "title": "Ayam Geprek",
+    "img": "14.jpg",
+    "description": "Disajikan Dengan Sambal Yang Pedas Dan Juga Nikmat"
   }
 ]
