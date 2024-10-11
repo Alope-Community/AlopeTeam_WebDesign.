@@ -93,7 +93,7 @@ export default function Footer() {
               </div>
               {/* https://unsplash.com/photos/selective-focus-photography-of-hamburger-with-sliced-tomatoes-and-vegetables-_TLKIVSW6Do */}
               <img
-                src="public/locations/resto1.jpg"
+                src="/locations/resto1.jpg"
                 alt="burger from unsplash"
                 className="w-full h-full object-cover"
               />
@@ -111,7 +111,7 @@ export default function Footer() {
               </div>
               {/* https://unsplash.com/photos/pizza-on-chopping-board-MqT0asuoIcU */}
               <img
-                src="public/locations/resto3.png"
+                src="/locations/resto3.png"
                 alt="pizza from unsplash"
                 className="w-full h-full object-cover"
               />
@@ -131,7 +131,7 @@ export default function Footer() {
               </div>
               {/* https://unsplash.com/photos/burger-on-black-plate-beside-gray-stainless-steel-dining-fork-YuKwHTNVAiI */}
               <img
-                src="public/locations/resto6.png"
+                src="/locations/resto6.png"
                 alt="hotdog from unsplash"
                 className="w-full h-full object-cover"
               />
@@ -151,7 +151,7 @@ export default function Footer() {
               </div>
               {/* https://unsplash.com/photos/a-person-is-cooking-food-on-a-grill-okLhhXJlFaA */}
               <img
-                src="public/locations/resto10.png"
+                src="/locations/resto10.png"
                 alt="BBQ from unsplash"
                 className="w-full h-full object-cover"
               />
@@ -171,7 +171,7 @@ export default function Footer() {
               </div>
               {/* https://unsplash.com/photos/close-up-photo-of-cooked-food-on-square-white-plate-auIbTAcSH6E */}
               <img
-                src="public/locations/resto8.png"
+                src="/locations/resto8.png"
                 alt="beef from unsplash"
                 className="w-full h-full object-cover"
               />

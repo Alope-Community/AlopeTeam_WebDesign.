@@ -5,7 +5,7 @@
       "id": "6 Restoran yang tersebar <br> di Ibu Kota.",
       "en": "6 Restaurants spread <br> across the Capital City."
     },
-    "image": "../../public/locations/location1.jpg"
+    "image": "/locations/location1.jpg"
   },
   {
     "title": "Bandung",
@@ -13,7 +13,7 @@
       "id": "5 Restoran yang tersebar <br> di Kota Kembang",
       "en": "5 Restaurants spread <br> across the Flower City"
     },
-    "image": "../../public/locations/location2.jpg"
+    "image": "/locations/location2.jpg"
   },
   {
     "title": "Surabaya",
@@ -21,6 +21,6 @@
       "id": "3 Restoran yang tersebar <br> di Kota Pahlawan",
       "en": "3 Restaurants spread <br> across the City of Heroes"
     },
-    "image": "../../public/locations/location3.jpg"
+    "image": "/locations/location3.jpg"
   }
 ]

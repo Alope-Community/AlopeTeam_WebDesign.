@@ -12,11 +12,7 @@ export default function HomeLocationSection({ lang }: { lang?: string }) {
           <div className="flex items-center justify-center gap-6">
             <hr className="flex-grow border-2 border-primary mx-2" />
             <div className="flex flex-col items-center">
-              <img
-                src="/public/logo/logo.svg"
-                alt=""
-                className="w-14 h-14"
-              />
+              <img src="/logo/logo.svg" alt="" className="w-14 h-14" />
               <Subtitle text="Cluck N Roll" />
               <Title
                 text={
